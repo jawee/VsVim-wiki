@@ -8,3 +8,5 @@ In an ideal world I would have a button to reset the key bindings to their state
 Until it's implemented you can work around this problem by reseting your profile.  This has the effect of resetting the key bindings as well.  
 
 bq. Tools -> Options -> Import / Export Settings
+
+<a href="http://github.com/jaredpar/VsVim/issues#issue/71">Issue #71</a> is currently tracking this
