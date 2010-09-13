@@ -1,5 +1,6 @@
 * <a href="#nosupport">How can I get feature X implemented / supported?</a>
 * <a href="#disablekey">When I uninstall VsVim why do keys like Delete no longer work?</a>
+* <a href="#vimrc">How can I verify my .vimrc is loading (Beta only)?</a>
 
 <a name="nosupport"></a>
 *How can I get feature X implemented / supported?*
@@ -18,3 +19,15 @@ Until it's implemented you can work around this problem by reseting your profile
 bq. Tools -> Options -> Import / Export Settings
 
 <a href="http://github.com/jaredpar/VsVim/issues#issue/71">Issue #71</a> is currently tracking this
+
+<a name="vimrc"></a>
+*How can I verify my .vimrc is loading (Beta only)?*
+
+There are 2 non-standard vim settings that can be used to diagnose potential .vimrc load issues
+
+* vimrc - This setting will display the full path of the file which was loaded for the .vimrc
+* vmrcpaths - This setting will display the files and paths searched for .vimrc 
+
+By default VsVim will look for a .vimrc or _vimrc file in the paths %HOME%, %VIM% and %USERPROFILE%
+
+As of now the commands supported in the .vimrc file are limited to those supported in command mode.  
