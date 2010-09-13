@@ -1,7 +1,7 @@
 * <a href="#contrib">Issues accepting contributions</a>
 * <a href="#nosupport">How can I get feature X implemented / supported?</a>
 * <a href="#disablekey">When I uninstall VsVim why do keys like Delete no longer work?</a>
-* <a href="#vimrc">How can I verify my .vimrc is loading (Beta only)?</a>
+* <a href="#vimrc">How can I verify my .vimrc is loading?</a>
 
 <a name="nosupport"></a>
 *How can I get feature X implemented / supported?*
@@ -13,16 +13,15 @@ Please file an issue on GitHub requesting this feature.  Issues is the primary w
 
 Visual Studio by default contains a lot of key bindings which interfere with VsVim's ability to be a proper emulation of Vim.  As such on start up it will detect any key bindings which conflict and prompt the user to remove them.  These are not reset when VsVim is uninstalled.
 
-In an ideal world I would have a button to reset the key bindings to their state before VsVim was installed.  It's just simply a feature I have not yet had time to implement.  
+There are two options for restoring the settings.  The first is to use the Vim Options page (accessible via the Options button on the margin).  From here you can reset the key bindings back to their original state.  
 
-Until it's implemented you can work around this problem by reseting your profile.  This has the effect of resetting the key bindings as well.  
+The other method is to reset your current profile.  This is much more impactful though and will have the effect of resetting other settings.  
 
 bq. Tools -> Options -> Import / Export Settings
 
-<a href="http://github.com/jaredpar/VsVim/issues#issue/71">Issue #71</a> is currently tracking this
 
 <a name="vimrc"></a>
-*How can I verify my .vimrc is loading (Beta only)?*
+*How can I verify my .vimrc is loading?*
 
 There are 2 non-standard vim settings that can be used to diagnose potential .vimrc load issues
 
