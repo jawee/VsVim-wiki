@@ -1,3 +1,4 @@
+* <a href="#contrib">Issues accepting contributions</a>
 * <a href="#nosupport">How can I get feature X implemented / supported?</a>
 * <a href="#disablekey">When I uninstall VsVim why do keys like Delete no longer work?</a>
 * <a href="#vimrc">How can I verify my .vimrc is loading (Beta only)?</a>
@@ -31,3 +32,8 @@ There are 2 non-standard vim settings that can be used to diagnose potential .vi
 By default VsVim will look for a .vimrc or _vimrc file in the paths %HOME%, %VIM% and %USERPROFILE%
 
 As of now the commands supported in the .vimrc file are limited to those supported in command mode.  
+
+<a name="contrib"></a>
+*Issues accepting contributions*
+
+Unfortunately at this time I cannot accept source contributions from non-Microsoft employees.  This is not a personal choice but a restriction of my employer.  I'm hopeful that this restriction will change in the future but as of now it stands.  
