@@ -1,7 +1,7 @@
-* <a href="#contrib">Issues accepting contributions</a>
 * <a href="#nosupport">How can I get feature X implemented / supported?</a>
 * <a href="#disablekey">When I uninstall VsVim why do keys like Delete no longer work?</a>
 * <a href="#vimrc">How can I verify my .vimrc is loading?</a>
+* <a href="#contrib">Issues accepting contributions</a>
 
 <a name="nosupport"></a>
 *How can I get feature X implemented / supported?*
