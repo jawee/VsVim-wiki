@@ -7,6 +7,8 @@
 Please file an issue on GitHub requesting this feature.  Issues is the primary way I track both bugs and feature requests.  
 
 <a name="disablekey"></a>
+*When I uninstall VsVim why do keys like Delete no longer work?*
+
 Visual Studio by default contains a lot of key bindings which interfere with VsVim's ability to be a proper emulation of Vim.  As such on start up it will detect any key bindings which conflict and prompt the user to remove them.  These are not reset when VsVim is uninstalled.
 
 In an ideal world I would have a button to reset the key bindings to their state before VsVim was installed.  It's just simply a feature I have not yet had time to implement.  
