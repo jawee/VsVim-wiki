@@ -28,7 +28,7 @@ There are 2 non-standard vim settings that can be used to diagnose potential .vi
 * vimrc - This setting will display the full path of the file which was loaded for the .vimrc
 * vmrcpaths - This setting will display the files and paths searched for .vimrc 
 
-By default VsVim will look for a .vimrc or _vimrc file in the paths %HOME%, %VIM% and %USERPROFILE%
+By default VsVim will look for a file named .vsvimrc, _vsvimrc, .vimrc or _vimrc file in the paths %HOME%, %VIM% and %USERPROFILE%
 
 As of now the commands supported in the .vimrc file are limited to those supported in command mode.  
 
