@@ -2,11 +2,13 @@
 * <a href="#disablekey">When I uninstall VsVim why do keys like Delete no longer work?</a>
 * <a href="#vimrc">How can I verify my .vimrc is loading?</a>
 * <a href="#contrib">Issues accepting contributions</a>
+* <a href="#thirdPartyTools">Integration with ReSharper, DevExpress, Visual Assist, etc ...</a>
+* <a href="#disable">Temporarily disabling VsVim</a>
 
 <a name="nosupport"></a>
 *How can I get feature X implemented / supported?*
 
-Please file an issue on GitHub requesting this feature.  Issues is the primary way I track both bugs and feature requests.  
+Please file an issue on GitHub requesting this feature.  Issues are the primary way I track both bugs and feature requests.  
 
 <a name="disablekey"></a>
 *When I uninstall VsVim why do keys like Delete no longer work?*
@@ -36,3 +38,15 @@ As of now the commands supported in the .vimrc file are limited to those support
 *Issues accepting contributions*
 
 Unfortunately at this time I cannot accept source contributions from non-Microsoft employees.  This is not a personal choice but a restriction of my employer.  I'm hopeful that this restriction will change in the future but as of now it stands.  
+<a name="thirdPartyTools"></a>
+*Integration with ReSharper, DevExpress, Visual Assist, etc ...*
+
+Right now there is no explicit support for interaction with 3rd party editor extensions like ReSharper, DevExpressio, Visual Assist, etc ...  This support is coming and is the primary focus of version 1.1 of VsVim.  We realize this is a highly desirable feature and do intend to add great support for it in a future release.  The reason for waiting to 1.1 is that we prioritized getting a highly functional Vim implementation higher than integration with 3rd party editors.  We are very close to a 1.0 release and will then dive straight into this issue.
+
+In the mean time if you reach a scenario where VsVim is interfering with actions like in place refactoring, you can <a href="#disable">temporarily disable it</a>, do the 3rd party action and then re-enable VsVim afterwards.  
+
+<a name="#disable">
+*Temporarily disabling VsVim*
+
+VsVim can be temporairly disabled by the key sequence Ctrl+Shift+F12 and re-enabled later by the same key sequence.  While disabled VsVim will not interfere with any keyboard or selection allowing you to use Visual Studio as if VsVim wasn't installed.
+
