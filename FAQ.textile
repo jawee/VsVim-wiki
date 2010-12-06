@@ -41,7 +41,7 @@ Unfortunately at this time I cannot accept source contributions from non-Microso
 <a name="thirdPartyTools"></a>
 *Integration with ReSharper, DevExpress, Visual Assist, etc ...*
 
-Right now there is no explicit support for interaction with 3rd party editor extensions like ReSharper, DevExpressio, Visual Assist, etc ...  This support is coming and is the primary focus of version 1.1 of VsVim.  We realize this is a highly desirable feature and do intend to add great support for it in a future release.  The reason for waiting to 1.1 is that we prioritized getting a highly functional Vim implementation higher than integration with 3rd party editors.  We are very close to a 1.0 release and will then dive straight into this issue.
+Right now there is no explicit support for interaction with 3rd party editor extensions like ReSharper, DevExpressio, Visual Assist, etc ...  This support is coming and is the primary focus of the next version VsVim (0.9.4).  A beta is expected around 12/9
 
 In the mean time if you reach a scenario where VsVim is interfering with actions like in place refactoring, you can <a href="#disable">temporarily disable it</a>, do the 3rd party action and then re-enable VsVim afterwards.  
 
