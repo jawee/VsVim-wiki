@@ -7,7 +7,7 @@ In order to allow developers to have different settings for VsVim it prefers vim
 * .vimrc
 * _vimrc
 
-VsVim will look for these files in the following directories: %HOME%, %VIM% and %USERPROFILE%
+VsVim will look for these files in the following directories: HOME, VIM and USERPROFILE
 
 ## Tabs
 
