@@ -1,4 +1,4 @@
-## VimRc Behavior
+> ## VimRc Behavior
 
 In order to allow developers to have different settings for VsVim it prefers vimrc files in a different order.  It will look for the following files in the listed order
 
@@ -21,5 +21,4 @@ By default VsVim will prefer Visual Studio indentation logic over that specified
 
 > set novsvim_useeditorindent
 
-
-
+>doesanything work
