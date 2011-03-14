@@ -28,7 +28,7 @@ bq. Tools -> Options -> Import / Export Settings
 There are 2 non-standard vim settings that can be used to diagnose potential .vimrc load issues
 
 * vimrc - This setting will display the full path of the file which was loaded for the .vimrc
-* vmrcpaths - This setting will display the files and paths searched for .vimrc 
+* vimrcpaths - This setting will display the files and paths searched for .vimrc 
 
 By default VsVim will look for a file named .vsvimrc, _vsvimrc, .vimrc or _vimrc file in the paths %HOME%, %VIM% and %USERPROFILE%
 
