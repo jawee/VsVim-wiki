@@ -45,13 +45,13 @@ This is the set of motions which are currently supported listed alphabetically. 
 - ][
 - ; 
 - %
-- * [0.9.6]
-- # [0.9.6]
+- \* [0.9.6]
+- \# [0.9.6]
 
 Implementation Notes
 
 - Text object selections (aw, (, {,) do not properly handle white space in all cases.  Additionally they cannot be used as selection operators in Visual Mode.  This support is planned for 0.9.7.  
-- Motions *, #, g* and g# are available as commands prior to 0.9.6 but are just not available as motions
+- Motions \*, \#, g* and g# are available as commands prior to 0.9.6 but are just not available as motions
 
 
 
