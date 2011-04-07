@@ -1,3 +1,4 @@
+Note: Features implemented but not part of a release are prefixed with a version number such as [0.9.6] 
 
 ## Motions
 
