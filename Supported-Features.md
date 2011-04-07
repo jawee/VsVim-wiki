@@ -4,7 +4,7 @@ Note: Features implemented but not part of a release are prefixed with a version
 
 This is the set of motions which are currently supported listed alphabetically. Aliases for the same motion are separated with '/' characters and are sorted by the more common alias
 
-- b / &lt;S-Left&gt; : Normal word backward
+    - b / &lt;S-Left&gt; : Normal word backward
 - B / &lt;C-Left&gt; : Big word backward  
 - e : End of normal word
 - E : End of big word 
