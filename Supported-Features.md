@@ -4,19 +4,55 @@ Note: Features implemented but not part of a release are prefixed with a version
 
 This is the set of motions which are currently supported listed alphabetically. Aliases for the same motion are separated with '/' characters and are sorted by the more common alias
 
-    - b / &lt;S-Left&gt; : Normal word backward
+- aw : A normal word
+- aW : A big word
+- as : A sentence 
+- ap : A paragraph 
+- a" / a' / a` : A quoted string
+- b / &lt;S-Left&gt; : Normal word backward
 - B / &lt;C-Left&gt; : Big word backward  
 - e : End of normal word
 - E : End of big word 
+- gg
+- g_ : Last non white space on the line 
+- g*
+- g#
+- G 
 - h / &lt;Left&gt; / &lt;Bs&gt; / &lt;C-H&gt; : character left
-- l / &lt;Right&gt; / &lt;Space&gt; : character right
+- H
+- i" / i' / i` : inner quoted string contents
 - j / &lt;Down&gt; / &lt;C-N&gt; / &lt;C-J&gt; : line down
 - k / &lt;Up&gt; / &lt;C-P&gt;: line up
+- l / &lt;Right&gt; / &lt;Space&gt; : character right
+- L
+- M
+- n
+- N
 - w / &lt;S-Right&gt; : Normal Word 
 - W / &lt;C-Right&gt; : Big Word
 - 0 : Beginning of the line
 - $ / &lt;End&gt; : End of line 
 - ^ : First non-white space on line
+- + / &lt;C-M&gt; : Line down to first non white space
+- _ : First non-white space on line (with count)
+- ( : Sentence backward 
+- ) : Sentence forward 
+- { : Paragraph backward
+- } : Paragraph forward
+- ]]
+- [[
+- []
+- ][
+- ; 
+- %
+- *
+- #
+
+
+Implementation Notes
+- Text object selections (aw, (, {,) do not properly handle white space in all cases.  Additionally they cannot be used as selection operators in Visual Mode.  This support is planned for 0.9.7.  
+
+
 
 
 
