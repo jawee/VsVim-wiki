@@ -2,7 +2,7 @@ Welcome to the VsVim wiki!
 
 [[FAQ]]
 
-[[VsVim Nonstandand Behavior]]
+[[VsVim Nonstandard Behavior]]
 
 <a href="http://visualstudiogallery.msdn.microsoft.com/en-us/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329">VsVim on Visual Studio Gallery</a>
 
