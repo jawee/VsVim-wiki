@@ -15,7 +15,7 @@ By default VsVim will prefer Visual Studio specified tab settings over Vim tab s
 
     set novsvim_useeditortabsettings
 
-## Identation
+## Indentation
 
 By default VsVim will prefer Visual Studio indentation logic over that specified by standard Vim autoindent behavior.  This can be disabled by the following command
 
