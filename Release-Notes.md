@@ -1,5 +1,14 @@
 # Release Notes
 
+### Version 1.0.3
+Milestone: https://github.com/jaredpar/VsVim/issues?milestone=17&state=closed
+
+Primary Issues Addressed
+
+* Shift-C was placing the caret in the incorrect position.  
+* End key was cancelling Visual Mode 
+* Enter and Back were causing issues with R# in certain scenarios 
+
 ### Version 1.0.2
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=16&state=closed
 
