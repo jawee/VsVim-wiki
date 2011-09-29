@@ -1,5 +1,16 @@
 # Release Notes
 
+### Version 1.1.0 
+Milestone: https://github.com/jaredpar/VsVim/issues?sort=created&direction=desc&state=closed&page=1&milestone=10
+
+Primary Issues Addressed
+
+* Insert mode largely rewritten. Better support for repeat and commands like CTRL-I, CTRL-M, CTRL-H, etc ...
+* CTRL-N and CTRL-P support added. 
+* CTRL-A and CTRL-X support added.  Keys must be manually mapped to VsVim to avoid unexpected conflicts with select all and cut. 
+* Added support for the gv command
+* VsVim will now preserve non-CRLF line endings 
+
 ### Version 1.0.3
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=17&state=closed
 
