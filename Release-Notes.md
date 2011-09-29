@@ -10,6 +10,7 @@ Primary Issues Addressed
 * CTRL-A and CTRL-X support added.  Keys must be manually mapped to VsVim to avoid unexpected conflicts with select all and cut. 
 * Added support for the gv command
 * VsVim will now preserve non-CRLF line endings 
+* Support added for Dev11 preview
 
 ### Version 1.0.3
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=17&state=closed
