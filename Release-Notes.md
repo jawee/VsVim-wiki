@@ -1,5 +1,17 @@
 # Release Notes
 
+### Version 1.1.1
+Milestone: https://github.com/jaredpar/VsVim/issues?milestone=19&sort=created&direction=desc&state=closed
+
+Primary Issues Addressed
+
+* Exception thrown while using CTRL-N
+* Upper case marks broken in 1.1
+* Replace command not working for international characters
+* Intellisense, quick info causing an exception in Visual Studio 2011
+* Crash when dragging the window splitter from visual mode 
+* CTRL-O didn't support commands that switched to visual or command mode
+
 ### Version 1.1.0 
 Milestone: https://github.com/jaredpar/VsVim/issues?sort=created&direction=desc&state=closed&page=1&milestone=10
 
