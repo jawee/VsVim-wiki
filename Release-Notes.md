@@ -8,7 +8,7 @@ Primary Issues Addressed
 * Exception thrown while using CTRL-N
 * Upper case marks broken in 1.1
 * Replace command not working for international characters
-* Intellisense, quick info causing an exception in Visual Studio 2011
+* Intellisense, quick info causing an exception in Visual Studio 11
 * Crash when dragging the window splitter from visual mode 
 * CTRL-O didn't support commands that switched to visual or command mode
 
