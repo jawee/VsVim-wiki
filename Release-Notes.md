@@ -12,7 +12,7 @@ Primary Issues Addressed
 * Crash when dragging the window splitter from visual mode 
 * CTRL-O didn't support commands that switched to visual or command mode
 
-#### Patch 1
+**Patch 1**
 
 * Vim undo command causing too many Visual Studio undos to occur.  
 * VsVim not running on machines with only Visual Studio 11 installed 
