@@ -5,22 +5,18 @@ Please send me any issues you find.  I've got moderate experience with R# but ve
 If you send bug reports please include the external editor and any special options you have set.  This will really help me in tracking down issues. 
 
 
-### What's supported (12/13/2010)
+### What's supported (11/18/2011)
 
-* Resharper 5.1 
+* Resharper 5.1, 6.0 
 * Visual Studio Snippets 
 
 ### What's next 
 
 CodeRush
 
-### Known Issues
-
-* ReSharper - Enter and Backspace do not work while debugging.  
-
 ### What's Tested 
 
-* ReSharper 5.1 
+* ReSharper 5.1, 6.0
     * Live Templates 
     * Introduce Variable
 * Visual Studio Snippets general support
