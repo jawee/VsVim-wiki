@@ -1,9 +1,3 @@
-## VsVim Beta Support for 3rd Party Plugins like R# 
-
-This page will track the beta support for 3rd party plugin support in VsVim.  I'm using a separate page here because I wanted to have a single location to keep up to date with the supported editors and list of known issues for anyone beta testing the feature.
-
-[[Download Beta 1 Here|https://github.com/downloads/jaredpar/VsVim/VsVim-0.9.4-Beta1.zip]] 
-
 ### Bug Reports
 
 Please send me any issues you find.  I've got moderate experience with R# but very little with the other supported editors.  There are likely a lot of common use cases I'm simply unaware of with those editors.  It's really helpful when more experienced users send me common scenarios that have problems.  
