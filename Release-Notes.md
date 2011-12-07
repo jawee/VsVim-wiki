@@ -1,5 +1,15 @@
 # Release Notes
 
+### Version 1.1.2
+Milestone: https://github.com/jaredpar/VsVim/issues?sort=created&direction=desc&state=closed&page=1&milestone=22
+
+Primary Issues Addressed
+
+* Performance of :hlseach
+* Maintaining vertical caret column
+* Several tabs / spaces issues including cc, caret column and repeat of 'cw', 
+* Tab on new line inserts tab on previous line 
+
 ### Version 1.1.1
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=19&sort=created&direction=desc&state=closed
 
