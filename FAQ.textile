@@ -5,6 +5,7 @@
 * <a href="#vimrc">How can I verify my .vimrc is loading?</a>
 * <a href="#thirdPartyTools">Integration with ReSharper, DevExpress, Visual Assist, etc ...</a>
 * <a href="#disable">Temporarily disabling VsVim</a>
+* <a href="#language">Why is so much of this written in F#?</a>
 
 <a name="oss"></a>
 *Does this project accept contributions?*
@@ -59,8 +60,13 @@ Right now there is no explicit support for interaction with 3rd party editor ext
 
 In the mean time if you reach a scenario where VsVim is interfering with actions like in place refactoring, you can <a href="#disable">temporarily disable it</a>, do the 3rd party action and then re-enable VsVim afterwards.  
 
-<a name="#disable">
+<a name="#disable"></a>
 *Temporarily disabling VsVim*
 
 VsVim can be temporairly disabled by the key sequence Ctrl+Shift+F12 and re-enabled later by the same key sequence.  While disabled VsVim will not interfere with any keyboard or selection allowing you to use Visual Studio as if VsVim wasn't installed.
+<a name"#language"></a>
+*Why is so much of this written in F#?*
 
+VsVim originally started as an internal hobby project of mine.  I wanted vim key bindings on a newer version of Visual Studio and at the same time I was learning F#.  Combining the two projects seemed like a perfect idea.  
+
+If I had known that I'd stick with the project this long and release it to the world I may have chosen C# instead.  Not because I dislike F# in any way (I absolutely love it in fact).  But because I realize it's a barrier to many people contributing to the project.  
