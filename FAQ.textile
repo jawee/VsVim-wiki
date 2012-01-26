@@ -1,9 +1,15 @@
+* <a href="#oss">Does this project accept contributions?</a>
 * <a href="#nosupport">How can I get feature X implemented / supported?</a>
 * <a href="#advanced">Why don't Ctrl-V, Ctrl-A and Ctrl-X in Visual Studio?</a>
 * <a href="#disablekey">When I uninstall VsVim why do keys like Delete no longer work?</a>
 * <a href="#vimrc">How can I verify my .vimrc is loading?</a>
 * <a href="#thirdPartyTools">Integration with ReSharper, DevExpress, Visual Assist, etc ...</a>
 * <a href="#disable">Temporarily disabling VsVim</a>
+
+<a name="oss"></a>
+*Does this project accept contributions?*
+
+Yes. VsVim is released under the Apache 2.0 license and accepts outside contributions. 
 
 <a name="nosupport"></a>
 *How can I get feature X implemented / supported?*
