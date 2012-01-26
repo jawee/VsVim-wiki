@@ -1,5 +1,18 @@
 # Release Notes
 
+### Version 1.2 (Currently in Beta)
+Milestone: https://github.com/jaredpar/VsVim/issues?milestone=20&state=closed
+
+Primary Issues Addressed
+
+* Support for :global command
+* Support for block insertion
+* Support for 'viw'. 
+* Support for exclusive selections in Visual Mode
+* Many key mapping issues involving key modifiers and non-alpha keys
+* Repeating of Enter now better handles indentation
+* Continued performance tuning of :hlsearch
+
 ### Version 1.1.2
 Milestone: https://github.com/jaredpar/VsVim/issues?sort=created&direction=desc&state=closed&page=1&milestone=22
 
