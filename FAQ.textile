@@ -64,7 +64,8 @@ In the mean time if you reach a scenario where VsVim is interfering with actions
 *Temporarily disabling VsVim*
 
 VsVim can be temporairly disabled by the key sequence Ctrl+Shift+F12 and re-enabled later by the same key sequence.  While disabled VsVim will not interfere with any keyboard or selection allowing you to use Visual Studio as if VsVim wasn't installed.
-<a name"language"></a>
+
+<a name="language"></a>
 *Why is so much of this written in F#?*
 
 VsVim originally started as an internal hobby project of mine.  I wanted vim key bindings on a newer version of Visual Studio and at the same time I was learning F#.  Combining the two projects seemed like a perfect idea.  
