@@ -6,7 +6,7 @@ Milestone: https://github.com/jaredpar/VsVim/issues?milestone=20&state=closed
 Primary Issues Addressed
 
 * Support for block motions
-* Support for `a{text-object}` and `i{text-object}` in Visual Mode (`aB`, 'a<', etc ...)
+* Support for `a{text-object}` and `i{text-object}` in Visual Mode (`aB`, `a<`, etc ...)
 * Support for :global command
 * Support for block insertion
 * Support for 'viw'. 
