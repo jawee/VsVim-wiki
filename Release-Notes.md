@@ -1,5 +1,15 @@
 # Release Notes
 
+### Version 1.2.1
+Milestone: https://github.com/jaredpar/VsVim/issues?milestone=24&state=closed
+
+Primary Issues Addressed
+
+* Support for the clipboard option 
+* Could not 'j' over blank lines in Visual Character Mode
+* Comments were breaking vimrc loading
+* Repeating commands resulted in intellisense being displayed
+
 ### Version 1.2 
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=20&state=closed
 
@@ -70,4 +80,3 @@ Primary Issues Addressed
 
 * Crash which occurred after closing tabs.  Most often repro'd when combined with Pro Power Tools
 * Key mappings which contained multiple inputs didn't behave properly in insert mode 
-
