@@ -4,6 +4,7 @@
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=25&state=closed
 
 Primary Issues Addressed
+
 * Substitute with quotes behaved incorrectly 
 * Substitute at end of line behaved incorrectly
 * Support for Mind Scape workbench files 
