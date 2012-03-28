@@ -1,5 +1,13 @@
 # Release Notes
 
+### Version 1.2.2
+Milestone: https://github.com/jaredpar/VsVim/issues?milestone=25&state=closed
+
+Primary Issues Addressed
+* Substitute with quotes behaved incorrectly 
+* Substitute at end of line behaved incorrectly
+* Support for Mind Scape workbench files 
+
 ### Version 1.2.1
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=24&state=closed
 
