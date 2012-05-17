@@ -20,3 +20,9 @@ By default VsVim will prefer Visual Studio specified tab settings over Vim tab s
 By default VsVim will prefer Visual Studio indentation logic over that specified by standard Vim autoindent behavior.  This can be disabled by the following command
 
     set novsvim_useeditorindent
+
+## Integration with Visual Studio
+
+You can run Visual Studio commands (i.e. the type of commands you would run in the *Command Window*) using `:vsc Command.Name`. For example, to go to the next error (Visual Studio command: *View.NextError*) you would execute: 
+
+    :vsc View.NextError
