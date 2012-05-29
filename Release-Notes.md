@@ -1,5 +1,18 @@
 # Release Notes
 
+### Version 1.3.0
+https://github.com/jaredpar/VsVim/issues?milestone=23&state=closed
+
+Primary Issues Addressed
+* Key Handling
+** Number pad keys now act as their equivalent 
+** Multiple key mapping fixes 
+* Better Visual Assist Support
+* Mindscape Support
+* Bugs present in Dev11 only installations
+* C# event handler pattern '+=' doesn't go to Visual Mode
+* Select Mode 
+
 ### Version 1.2.2
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=25&state=closed
 
