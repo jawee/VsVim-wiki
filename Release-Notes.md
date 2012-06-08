@@ -13,6 +13,13 @@ Primary Issues Addressed
 * C# event handler pattern '+=' doesn't go to Visual Mode
 * Select Mode 
 
+Patched Issues (1.3.0.2)
+* Select mode deletion added an unprintable character 
+* Macro playback failed when SpecFlow was also installed
+* The `gk` command caused a down movement when word wrap was disabled
+* Exception on startup 
+* Certain key mappings not working in insert mode
+
 ### Version 1.2.2
 Milestone: https://github.com/jaredpar/VsVim/issues?milestone=25&state=closed
 
