@@ -43,6 +43,7 @@ Similarly, Visual Studio's *Go To Definition...* command is a good approximation
 
 Vim jumps to definition in the current window; if the definition is in another file, Visual Studio will open that file in a separate tab (or activate the tab that contains the file if already open).
 
+<a name="clipboard"></a>
 ## Ctrl-X, Ctrl-C, Ctrl-V
 
 A normal installation on gVim on Windows will not enable the `Ctrl-X`, `Ctrl-C`, `Ctrl-V` shortcuts that typically control clipboard operations on Windows. Indeed, the Vim documentation on [clipboard operations on Windows](http://vimdoc.sourceforge.net/htmldoc/gui_w32.html#gui-clipboard) instructs the user on adding `source $VIMRUNTIME/mswin.vim` to the `_vimrc` file in order to be able to use the standard Windows behavior.
