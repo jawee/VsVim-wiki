@@ -34,7 +34,7 @@ Vim tracks [jump motion history](http://vimdoc.sourceforge.net/htmldoc/motion.ht
 Should you find the Visual Studio behavior acceptable, you can map it to the `C-O` and `C-I` normal mode commands:
 
     nmap <C-O> :vsc View.NavigateBackward<CR>
-    nmap <C-I> :vsc View.NagivateForward<CR>
+    nmap <C-I> :vsc View.NavigateForward<CR>
 
 
 Similarly, Visual Studio's *Go To Definition...* command is a good approximation of the `C-]` [jump to tag definition](http://vimdoc.sourceforge.net/htmldoc/tagsrch.html#CTRL-]) motion:
