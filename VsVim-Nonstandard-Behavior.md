@@ -69,7 +69,7 @@ vnoremap <C-Insert> "+y
 " CTRL-V and SHIFT-Insert are Paste
 map <C-V>		"+gP
 map <S-Insert>		"+gP
-imap <C-V>		<Esc><C-V>gi
+imap <C-V>		<Esc>"+gpa
 
 cmap <C-V>		<C-R>+
 cmap <S-Insert>		<C-R>+
