@@ -43,4 +43,82 @@ Similarly, Visual Studio's *Go To Definition...* command is a good approximation
 
 Vim jumps to definition in the current window; if the definition is in another file, Visual Studio will open that file in a separate tab (or activate the tab that contains the file if already open).
 
+## Ctrl-X, Ctrl-C, Ctrl-V
+
+A normal installation on gVim on Windows will not enable the `Ctrl-X`, `Ctrl-C`, `Ctrl-V` shortcuts that typically control clipboard operations on Windows. Indeed, the Vim documentation on [clipboard operations on Windows](http://vimdoc.sourceforge.net/htmldoc/gui_w32.html#gui-clipboard) instructs the user on adding `source $VIMRUNTIME/mswin.vim` to the `_vimrc` file in order to be able to use the standard Windows behavior.
+
+As VsVim tries to stay as close to the default behavior of Vim as possible, there are two ways to handle the `Ctrl-X/C/V` shortcuts:
+* Visual Studio handles the `Ctrl-X/C/V` combinations, or,
+* Vim handles the `Ctrl-X/C/V` combination and uses mapping directives to mimic the standard Windows behavior.
+
+The downside of choosing *Handled by Visual Studio* in the VsVim option dialog is that VsVim will not exit insert mode when `Ctrl-C` is pressed. Similar restrictions apply to the rest of the commands.
+
+If you choose to have VsVim handle `Ctrl-X/C/V`, you can add the following to the `_vsvimrc` file in order to arrive at a standard Windows behavior:
+```vim
+" copied from Vim 7.3's mswin.vim:
+
+" CTRL-X and SHIFT-Del are Cut
+vnoremap <C-X> "+x
+vnoremap <S-Del> "+x
+
+" CTRL-C and CTRL-Insert are Copy
+vnoremap <C-C> "+y
+vnoremap <C-Insert> "+y
+
+" CTRL-V and SHIFT-Insert are Paste
+map <C-V>		"+gP
+map <S-Insert>		"+gP
+
+cmap <C-V>		<C-R>+
+cmap <S-Insert>		<C-R>+
+
+" Pasting blockwise and linewise selections is not possible in Insert and
+" Visual mode without the +virtualedit feature.  They are pasted as if they
+" were characterwise instead.
+" Uses the paste.vim autoload script.
+
+exe 'inoremap <script> <C-V>' paste#paste_cmd['i']
+exe 'vnoremap <script> <C-V>' paste#paste_cmd['v']
+
+imap <S-Insert>		<C-V>
+vmap <S-Insert>		<C-V>
+
+" Use CTRL-Q to do what CTRL-V used to do
+noremap <C-Q>		<C-V>
+```
+
+Here are other entries from the `mswin.vim` file that you can use with VsVim in order to allow all keys to be handled by VsVim:
+
+```vim
+" set 'selection', 'selectmode', 'mousemodel' and 'keymodel' for MS-Windows
+behave mswin
+
+" backspace and cursor keys wrap to previous/next line
+set backspace=indent,eol,start whichwrap+=<,>,[,]
+
+" backspace in Visual mode deletes selection
+vnoremap <BS> d
+
+" Use CTRL-S for saving, also in Insert mode
+noremap <C-S>		:update<CR>
+vnoremap <C-S>		<C-C>:update<CR>
+inoremap <C-S>		<C-O>:update<CR>
+
+" CTRL-Z is Undo; not in cmdline though
+noremap <C-Z> u
+inoremap <C-Z> <C-O>u
+
+" CTRL-Y is Redo (although not repeat); not in cmdline though
+noremap <C-Y> <C-R>
+inoremap <C-Y> <C-O><C-R>
+
+" CTRL-A is Select all
+noremap <C-A> gggH<C-O>G
+inoremap <C-A> <C-O>gg<C-O>gH<C-O>G
+cnoremap <C-A> <C-C>gggH<C-O>G
+onoremap <C-A> <C-C>gggH<C-O>G
+snoremap <C-A> <C-C>gggH<C-O>G
+xnoremap <C-A> <C-C>ggVG
+
+```
 
