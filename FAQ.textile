@@ -22,7 +22,7 @@ Please file an issue on GitHub requesting this feature.  Issues are the primary 
 
 All of these commands are implemented but are not enabled by default.  These are command keys which have very specific meaning in Windows and their usage is classified as advanced so VsVim won't unbind them by default.  To enable these commands manually switch them to VsVim in the conflicting key bindings dialog. 
 
-If you'd like to have the VsVim handle Ctrl-V, Ctrl-C, etc and still get the typical Windows behavior, see [these instructions](https://github.com/jaredpar/VsVim/wiki/VsVim-Nonstandard-Behavior#wiki-clipboard) on the [VsVim Nonstandard Behavior](https://github.com/jaredpar/VsVim/wiki/VsVim-Nonstandard-Behavior) page.
+If you'd like to have the VsVim handle Ctrl-V, Ctrl-C, etc and still get the typical Windows behavior, see <a href="https://github.com/jaredpar/VsVim/wiki/VsVim-Nonstandard-Behavior#wiki-clipboard">these instructions</a> on the <a href="https://github.com/jaredpar/VsVim/wiki/VsVim-Nonstandard-Behavior">VsVim Nonstandard Behavior</a> page.
 
 Note: Ctrl-A and Ctrl-X aren't available until 1.1
 
