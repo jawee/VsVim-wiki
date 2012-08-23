@@ -5,8 +5,8 @@ https://github.com/jaredpar/VsVim/issues?milestone=23&state=closed
 
 Primary Issues Addressed
 * Key Handling
-** Number pad keys now act as their equivalent 
-** Multiple key mapping fixes 
+  * Number pad keys now act as their equivalent 
+  * Multiple key mapping fixes 
 * Better Visual Assist Support
 * Mindscape Support
 * Bugs present in Dev11 only installations
