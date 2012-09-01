@@ -1,5 +1,13 @@
 # Release Notes
 
+### Version 1.3.1
+https://github.com/jaredpar/VsVim/issues?milestone=27&page=1&state=closed
+
+Primary Issues Addressed
+* Non-English keyboard handling 
+* More key mapping fixes 
+* VS 2012 fixes 
+
 ### Version 1.3.0
 https://github.com/jaredpar/VsVim/issues?milestone=23&state=closed
 
