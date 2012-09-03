@@ -8,6 +8,9 @@ Primary Issues Addressed
 * More key mapping fixes 
 * VS 2012 fixes 
 
+Patched Issues (1.3.1.1)
+* AltGr handling was producing incorrect chars on certain layouts
+
 ### Version 1.3.0
 https://github.com/jaredpar/VsVim/issues?milestone=23&state=closed
 
