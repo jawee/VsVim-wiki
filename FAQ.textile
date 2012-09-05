@@ -6,6 +6,7 @@
 * <a href="#thirdPartyTools">Integration with ReSharper, DevExpress, Visual Assist, etc ...</a>
 * <a href="#disable">Temporarily disabling VsVim</a>
 * <a href="#language">Why is so much of this written in F#?</a>
+* <a href="#vax">Visual Assist Compatibility</a>
 
 <a name="oss"></a>
 *Does this project accept contributions?*
@@ -73,3 +74,12 @@ VsVim can be temporairly disabled by the key sequence Ctrl+Shift+F12 and re-enab
 VsVim originally started as an internal hobby project of mine.  I wanted vim key bindings on a newer version of Visual Studio and at the same time I was learning F#.  Combining the two projects seemed like a perfect idea.  
 
 If I had known that I'd stick with the project this long and release it to the world I may have chosen C# instead.  Not because I dislike F# in any way (I absolutely love it in fact).  But because I realize it's a barrier to many people contributing to the project.  
+
+<a name="vax"></a>
+*Visual Assist Compatibility*
+
+Recent versions of Visual Assist are compatible with VsVim.  If you are seeing any issues then make sure that the following registry value has a value of 1.  This is the default so not seeing the setting means that it's OK.
+
+* VS2010: HKCU\Software\Whole Tomato\Visual Assist X\VANet10\TrackCaretVisibility
+* VS2012: HKCU\Software\Whole Tomato\Visual Assist X\VANet11\TrackCaretVisibility
+
