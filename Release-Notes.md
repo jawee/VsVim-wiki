@@ -11,6 +11,11 @@ Primary Issues Addressed
 Patched Issues (1.3.1.1)
 * AltGr handling was producing incorrect chars on certain layouts
 
+Patched Issues (1.3.1.2)
+* :wa was incorrectly saving non-dirty files
+* <C-T> wasn't working in insert mode
+* Visual Assist issues with inclusive selection
+
 ### Version 1.3.0
 https://github.com/jaredpar/VsVim/issues?milestone=23&state=closed
 
