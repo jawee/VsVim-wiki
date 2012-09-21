@@ -16,6 +16,9 @@ Patched Issues (1.3.1.2)
 * <C-T> wasn't working in insert mode
 * Visual Assist issues with inclusive selection
 
+Patched Issues (1.3.1.3)
+* gt, gT, tabn weren't working on 2010
+
 ### Version 1.3.0
 https://github.com/jaredpar/VsVim/issues?milestone=23&state=closed
 
