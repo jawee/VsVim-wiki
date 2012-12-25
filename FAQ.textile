@@ -81,7 +81,7 @@ If I had known that I'd stick with the project this long and release it to the w
 
 Older versions of VsVim are available in the following Dropbox folder
 
-<a herf="https://www.dropbox.com/sh/pqxkvemji983alf/kZ3a2dUplB">VsVim Drops</a>
+<a href="https://www.dropbox.com/sh/pqxkvemji983alf/kZ3a2dUplB">VsVim Drops</a>
 
 <a name="vax"></a>
 *Visual Assist Compatibility*
