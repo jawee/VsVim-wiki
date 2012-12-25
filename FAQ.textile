@@ -6,6 +6,7 @@
 * <a href="#thirdPartyTools">Integration with ReSharper, DevExpress, Visual Assist, etc ...</a>
 * <a href="#disable">Temporarily disabling VsVim</a>
 * <a href="#language">Why is so much of this written in F#?</a>
+* <a href="#drops">Where can i get older drops?</a>
 * <a href="#vax">Visual Assist Compatibility</a>
 
 <a name="oss"></a>
@@ -75,6 +76,13 @@ VsVim originally started as an internal hobby project of mine.  I wanted vim key
 
 If I had known that I'd stick with the project this long and release it to the world I may have chosen C# instead.  Not because I dislike F# in any way (I absolutely love it in fact).  But because I realize it's a barrier to many people contributing to the project.  
 
+<a name="drops"></a>
+*Where can I get older drops*
+
+Older versions of VsVim are available in the following Dropbox folder
+
+<a herf="https://www.dropbox.com/sh/pqxkvemji983alf/kZ3a2dUplB">VsVim Drops</a>
+
 <a name="vax"></a>
 *Visual Assist Compatibility*
 
@@ -82,4 +90,3 @@ Recent versions of Visual Assist are compatible with VsVim.  If you are seeing a
 
 * VS2010: HKCU\Software\Whole Tomato\Visual Assist X\VANet10\TrackCaretVisibility
 * VS2012: HKCU\Software\Whole Tomato\Visual Assist X\VANet11\TrackCaretVisibility
-
