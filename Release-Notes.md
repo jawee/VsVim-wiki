@@ -13,7 +13,7 @@ Patched Issues (1.3.1.1)
 
 Patched Issues (1.3.1.2)
 * :wa was incorrectly saving non-dirty files
-* <C-T> wasn't working in insert mode
+* `<C-T>` wasn't working in insert mode
 * Visual Assist issues with inclusive selection
 
 Patched Issues (1.3.1.3)
