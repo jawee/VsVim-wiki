@@ -1,5 +1,15 @@
 # Release Notes
 
+### Version 1.3.2
+https://github.com/jaredpar/VsVim/issues?milestone=29&page=1&state=closed
+
+Primary Issues Addressed
+* Navigation issues with C style pragma directives
+* Go to Definition causing VsVim to switch to Visual mode
+* Visual Studio Dark Theme issues
+* Support for `<leader>` mapping
+* Several bugs around handling of `shiftwidth` and `tabstop` 
+
 ### Version 1.3.1
 https://github.com/jaredpar/VsVim/issues?milestone=27&page=1&state=closed
 
