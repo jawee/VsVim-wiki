@@ -1,5 +1,15 @@
 # Release Notes
 
+### Version 1.3.3
+https://github.com/jaredpar/VsVim/issues?milestone=32&page=1&state=closed
+
+Primary Issues Addressed
+* vimrc entries not being properly handled 
+* Home doesn't work in normal / visual mode
+* Commenting code switches to Visual mode
+* Paste to the ex command line via Ctrl-V
+* VsVim doesn't stay disabled in new files
+
 ### Version 1.3.2
 https://github.com/jaredpar/VsVim/issues?milestone=29&page=1&state=closed
 
