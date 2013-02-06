@@ -10,6 +10,9 @@ Primary Issues Addressed
 * Paste to the ex command line via Ctrl-V
 * VsVim doesn't stay disabled in new files
 
+Patched Issues (1.3.3.1)
+* Inconsistent loading between 2010 and 2012 due to a timing bug
+
 ### Version 1.3.2
 https://github.com/jaredpar/VsVim/issues?milestone=29&page=1&state=closed
 
