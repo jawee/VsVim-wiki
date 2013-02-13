@@ -1,3 +1,5 @@
+[[Default Settings Change Announcement|Defaults-for-Settings]]
+
 * <a href="#oss">Does this project accept contributions?</a>
 * <a href="#nosupport">How can I get feature X implemented / supported?</a>
 * <a href="#advanced">Why don't Ctrl-V, Ctrl-A and Ctrl-X work in Visual Studio?</a>
