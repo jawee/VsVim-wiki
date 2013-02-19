@@ -15,7 +15,7 @@ Patched Issues (1.3.3.1)
 
 Patched Issues (1.3.3.2)
 * The `r` command used on tags in HTML pages caused an unhandled exception
-* The `w` motion used on a blank line caused an unhandled exception
+* The `dw` command used on a blank line caused an unhandled exception
 * Added `vsvim_useeditordefaults` setting to explicitly let Visual Studio defaults win
 
 ### Version 1.3.2
