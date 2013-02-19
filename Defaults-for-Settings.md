@@ -33,7 +33,13 @@ Additionally it gets even more complex because vim and Visual Studio have differ
 
 After looking at all of this I decided the only predictable way to approach the problem was to have one win entirely over the other.  
 
-[1] There are 2 events which generally fire during document load.  In 2010 the settings pretty much all loaded after the 2nd event.  In Vs 2012 they now load in all 3 places (before first, between and after second).  It's an implementation detail I shouldn't have depended on but as I said before, this code wasn't ever designed, it evolved.  
+## What if I have a _vimrc and I want VsVim to use Visual Studio settings?
+Add the following line to your _vimrc file 
 
+    set vsvim_useeditordefaults
+
+VsVim will see this and let Visual Studio settings win at start up time 
+
+[1] There are 2 events which generally fire during document load.  In 2010 the settings pretty much all loaded after the 2nd event.  In Vs 2012 they now load in all 3 places (before first, between and after second).  It's an implementation detail I shouldn't have depended on but as I said before, this code wasn't ever designed, it evolved.  
 
 
