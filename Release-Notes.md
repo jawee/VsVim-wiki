@@ -13,6 +13,11 @@ Primary Issues Addressed
 Patched Issues (1.3.3.1)
 * Inconsistent loading between 2010 and 2012 due to a timing bug
 
+Patched Issues (1.3.3.2)
+* The `r` command used on tags in HTML pages caused an unhandled exception
+* The `w` motion used on a blank line caused an unhandled exception
+* Added `vsvim_useeditordefaults` setting to explicitly let Visual Studio defaults win
+
 ### Version 1.3.2
 https://github.com/jaredpar/VsVim/issues?milestone=29&page=1&state=closed
 
