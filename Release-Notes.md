@@ -18,6 +18,9 @@ Patched Issues (1.3.3.2)
 * The `dw` command used on a blank line caused an unhandled exception
 * Added `vsvim_useeditordefaults` setting to explicitly let Visual Studio defaults win
 
+Patched Issues (1.3.3.3)
+* Fixed live template support in Resharper
+
 ### Version 1.3.2
 https://github.com/jaredpar/VsVim/issues?milestone=29&page=1&state=closed
 
