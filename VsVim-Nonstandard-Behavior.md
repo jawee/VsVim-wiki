@@ -9,11 +9,15 @@ In order to allow developers to have different settings for VsVim it prefers vim
 
 VsVim will look for these files in the following directories: HOME, VIM and USERPROFILE
 
-## Tabs
+## Tabs 
 
-By default VsVim will prefer Visual Studio specified tab settings over Vim tab settings.  This affects *et* and *tabstop*.  If you would prefer VsVim ignore Visual Studio tab settings and instead use *et* and *tabstop* then use the following command.
+There are settings defined by both Vim and Visual Studio that VsVim does its best to keep in sync.  Because both environments define these settings they can have conflicting values at start up.  VsVim has to pick a winner between Visual Studio settings and those defined in a _vimrc file.  It does so by doing the following
 
-    set novsvim_useeditorsettings
+> If VsVim finds and loads a _vimrc file on startup it will prefer Vim settings over Visual Studio.  Else it will prefer Visual Studio settings
+
+In the case you want to have a _vimrc and still prefer Visual Studio settings on startup you can add the following line to the _vimrc file 
+
+    set vsvim_useeditordefaults
 
 ## Indentation
 
