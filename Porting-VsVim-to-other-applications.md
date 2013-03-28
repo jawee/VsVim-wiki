@@ -27,4 +27,4 @@ Porting VsVim to an application which uses the WPF editor is very straight forwa
 
 The implementation of VimHost along with the binaries from VimCore and VimWpf need to be included in the MEF container of the application.  Once that is done VsVim will light up in the application.  
 
-Porting VsVim to an application which doesn't use the WPF editor would be a large under taking.  VsVim takes advantage of a large portion of the text model in the editor (in particular it's ability to get snapshots and track points across edits).  The port would have to include a large subset of the WPF editor or rewrite significant portions of VsVim.  It's not a task that I think could easily be done.  
+Porting VsVim to an application which doesn't use the WPF editor would be a very large under taking.  VsVim depends heavily on the text data model and view portions of the WPF editor: ITextSnapshot, ITextBuffer, ITagger etc ...  Any port of VsVim would need sufficiently representative implementations of these interfaces or a very large rewrite to no longer use them.  It's not a task that I think could easily be done.  
