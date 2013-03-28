@@ -17,7 +17,9 @@ The WPF editor is actually the core of several other products.  Powershell ISE a
 
 ## VsVim Architecture 
 
-VsVim is intentionally layered in the same way as Visual Studio.  The core parts of VsVim (VimCore and VimWpf) depend only on the WPF editor.  These projects represent all of the Vim specific logic.  The rest of VsVim (VsVimShared + VsVim) are depnedent on the shell and mainly deal with hosting issues in Visual Studio.  
+VsVim is intentionally layered in the same way as Visual Studio.  The core parts of VsVim (VimCore and VimWpf) depend only on the WPF editor.  These projects represent all of the Vim specific logic.  
+
+The rest of VsVim (VsVimShared + VsVim) are dependent on the Visual Studio Shell.  They deal with hosting issues like navigating the document windows, routing keyboard input, implementing goto definition, etc ... 
 
 ## Porting VsVim 
 
