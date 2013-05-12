@@ -1,6 +1,6 @@
 Reverse-engineered rules for Vim undo grouping in Insert mode, written for [Issue #1096](https://github.com/jaredpar/VsVim/issues/1096):
 
-I’ve experimented by typing in Insert mode, and I’ve come up with a simple set of rules that, as far as I can tell, correctly and completely predicts how Vim will group undos.
+I’ve come up with a simple set of rules that, as far as I can tell, correctly and completely predicts how Vim will group undos. I reverse-engineered these rules through experimentation and reading `undo.txt` in Vim’s help. I experimented by typing in Insert mode and then undoing that typing step by step. If you find that some behavior is missing, feel free to add it to this page.
 
 These actions continue a group:
 - just typing a character, like ‘a’ or ‘%’
@@ -14,7 +14,7 @@ These actions start a new group:
 	- using e.g. the cursor keys, Home, End, `<C-O>` followed by a motion, etc.
 - `<C-G>u`
 	- see `:help :undojoin`
-- Setting the value of `undolevels`
+- setting the value of `undolevels`
 	- see `:help :undojoin`
 
 These actions start and end their own group:
