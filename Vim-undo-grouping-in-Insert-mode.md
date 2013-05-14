@@ -20,6 +20,8 @@ These actions start a new group:
 These actions start and end their own group:
 - deletion over a motion with `<C-O>d`
 - changing case over a motion with `<C-O>g~`
+- `<C-O><C-E>` to scroll
+- probably a bunch of other `<C-O>` commands - but not, at least, the motion-only ones
 
 ### Example
 
