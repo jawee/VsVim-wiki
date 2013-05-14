@@ -18,7 +18,8 @@ These actions start a new group:
 	- see `:help :undojoin`
 
 These actions start and end their own group:
-- A deletion with `<C-O>d`
+- deletion over a motion with `<C-O>d`
+- changing case over a motion with `<C-O>g~`
 
 ### Example
 
