@@ -4,7 +4,7 @@
 https://github.com/jaredpar/VsVim/issues?milestone=33&page=1&state=closed
 
 Primary Issues Addressed
-* Basic autocmd support 
+* Basic autocmd support ([[Details|AutoCmd support]])
 * Visual Studio 2012 compatibility issues
 * Editing of `ex` command line 
 * Better support for `)` motions 
