@@ -7,7 +7,7 @@ Primary Issues Addressed
 * Block selection and tab / wide character issues 
 * Enter / Backspace key broken in non-edit windows 
 * o / O support in Visual Mode 
-* Display of control characters such as `^B`
+* Display of control characters such as `^B` ([[Details|Control Character Display]])
 * Height of block caret in diff view 
 * Perf issues around block caret drawing
 
