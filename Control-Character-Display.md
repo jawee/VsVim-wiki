@@ -11,3 +11,5 @@ This behavior can be disabled by toggling the `vsvim_controlchars` setting
 After which the control characters will have the default display of nothing
 
 [[Images/control_char_2.png]]
+
+The color which displays the control characters is configurable via the Visual Studio Fonts and Colors page.  The name of the color is 'VsVim Control Character' 
