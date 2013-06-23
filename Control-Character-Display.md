@@ -2,6 +2,12 @@ ASCII control characters are chars with the numeric value of [0-31].  They are m
 
 VsVim will display ASCII control characters in the same way as gVim does.  By using the `^B` notation where `^` indicates a control character followed by the control code letter 
 
+[[Images/control_char_1.png]]
+
 This behavior can be disabled by toggling the `vsvim_controlchars` setting
 
     :set novsvim_controlchars
+
+After which the control characters will have the default display of nothing
+
+[[Images/control_char_2.png]]
