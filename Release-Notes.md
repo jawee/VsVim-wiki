@@ -8,6 +8,8 @@ Primary Issues Addressed
 * Enter / Backspace key broken in non-edit windows 
 * o / O support in Visual Mode 
 * Display of control characters such as `^B`
+* Height of block caret in diff view 
+* Perf issues around block caret drawing
 
 ### Version 1.4.0
 https://github.com/jaredpar/VsVim/issues?milestone=33&page=1&state=closed
