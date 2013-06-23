@@ -1,5 +1,14 @@
 # Release Notes
 
+### Version 1.4.1
+https://github.com/jaredpar/VsVim/issues?milestone=35&page=1&state=closed
+
+Primary Issues Addressed
+* Block selection and tab / wide character issues 
+* Enter / Backspace key broken in non-edit windows 
+* o / O support in Visual Mode 
+* Display of control characters such as `^B`
+
 ### Version 1.4.0
 https://github.com/jaredpar/VsVim/issues?milestone=33&page=1&state=closed
 
