@@ -1,30 +1,30 @@
 # Release Notes
 
 ### Version 1.4.1
-https://github.com/jaredpar/VsVim/issues?milestone=35&page=1&state=closed
+[Issues closed in milestone 1.4.1](https://github.com/jaredpar/VsVim/issues?milestone=35&page=1&state=closed)
 
 Primary Issues Addressed
-* Block selection and tab / wide character issues 
-* Enter / Backspace key broken in non-edit windows 
-* o / O support in Visual Mode 
+* Block selection and tab / wide character issues
+* Enter / Backspace key broken in non-edit windows
+* o / O support in Visual Mode
 * Display of control characters such as `^B` ([[Details|Control Character Display]])
-* Height of block caret in diff view 
+* Height of block caret in diff view
 * Perf issues around block caret drawing
 
 ### Version 1.4.0
-https://github.com/jaredpar/VsVim/issues?milestone=33&page=1&state=closed
+[Issues closed in milestone 1.4.0](https://github.com/jaredpar/VsVim/issues?milestone=33&page=1&state=closed)
 
 Primary Issues Addressed
 * Basic autocmd support ([[Details|AutoCmd support]])
 * Visual Studio 2012 compatibility issues
-* Editing of `ex` command line 
-* Better support for `)` motions 
+* Editing of `ex` command line
+* Better support for `)` motions
 
 ### Version 1.3.3
-https://github.com/jaredpar/VsVim/issues?milestone=32&page=1&state=closed
+[Issues closed in milestone 1.3.3](https://github.com/jaredpar/VsVim/issues?milestone=32&page=1&state=closed)
 
 Primary Issues Addressed
-* vimrc entries not being properly handled 
+* vimrc entries not being properly handled
 * Home doesn't work in normal / visual mode
 * Commenting code switches to Visual mode
 * Paste to the ex command line via Ctrl-V
@@ -42,22 +42,22 @@ Patched Issues (1.3.3.3)
 * Fixed live template support in Resharper
 
 ### Version 1.3.2
-https://github.com/jaredpar/VsVim/issues?milestone=29&page=1&state=closed
+[Issues closed in milestone 1.3.2](https://github.com/jaredpar/VsVim/issues?milestone=29&page=1&state=closed)
 
 Primary Issues Addressed
 * Navigation issues with C style pragma directives
 * Go to Definition causing VsVim to switch to Visual mode
 * Visual Studio Dark Theme issues
 * Support for `<leader>` mapping
-* Several bugs around handling of `shiftwidth` and `tabstop` 
+* Several bugs around handling of `shiftwidth` and `tabstop`
 
 ### Version 1.3.1
-https://github.com/jaredpar/VsVim/issues?milestone=27&page=1&state=closed
+[Issues closed in milestone 1.3.1](https://github.com/jaredpar/VsVim/issues?milestone=27&page=1&state=closed)
 
 Primary Issues Addressed
-* Non-English keyboard handling 
-* More key mapping fixes 
-* VS 2012 fixes 
+* Non-English keyboard handling
+* More key mapping fixes
+* VS 2012 fixes
 
 Patched Issues (1.3.1.1)
 * AltGr handling was producing incorrect chars on certain layouts
@@ -71,46 +71,46 @@ Patched Issues (1.3.1.3)
 * gt, gT, tabn weren't working on 2010
 
 ### Version 1.3.0
-https://github.com/jaredpar/VsVim/issues?milestone=23&state=closed
+[Issues closed in milestone 1.3](https://github.com/jaredpar/VsVim/issues?milestone=23&state=closed)
 
 Primary Issues Addressed
 * Key Handling
-  * Number pad keys now act as their equivalent 
-  * Multiple key mapping fixes 
+  * Number pad keys now act as their equivalent
+  * Multiple key mapping fixes
 * Better Visual Assist Support
 * Mindscape Support
 * Bugs present in Dev11 only installations
 * C# event handler pattern '+=' doesn't go to Visual Mode
-* Select Mode 
+* Select Mode
 
 Patched Issues (1.3.0.2)
-* Select mode deletion added an unprintable character 
+* Select mode deletion added an unprintable character
 * Macro playback failed when SpecFlow was also installed
 * The `gk` command caused a down movement when word wrap was disabled
-* Exception on startup 
+* Exception on startup
 * Certain key mappings not working in insert mode
 
 ### Version 1.2.2
-Milestone: https://github.com/jaredpar/VsVim/issues?milestone=25&state=closed
+[Issues closed in milestone 1.2.2](https://github.com/jaredpar/VsVim/issues?milestone=25&state=closed)
 
 Primary Issues Addressed
 
-* Substitute with quotes behaved incorrectly 
+* Substitute with quotes behaved incorrectly
 * Substitute at end of line behaved incorrectly
-* Support for Mind Scape workbench files 
+* Support for Mind Scape workbench files
 
 ### Version 1.2.1
-Milestone: https://github.com/jaredpar/VsVim/issues?milestone=24&state=closed
+[Issues closed in milestone 1.2.1](https://github.com/jaredpar/VsVim/issues?milestone=24&state=closed)
 
 Primary Issues Addressed
 
-* Support for the clipboard option 
+* Support for the clipboard option
 * Could not 'j' over blank lines in Visual Character Mode
 * Comments were breaking vimrc loading
 * Repeating commands resulted in intellisense being displayed
 
-### Version 1.2 
-Milestone: https://github.com/jaredpar/VsVim/issues?milestone=20&state=closed
+### Version 1.2
+[Issues closed in milestone 1.2](https://github.com/jaredpar/VsVim/issues?milestone=20&state=closed)
 
 Primary Issues Addressed
 
@@ -118,24 +118,24 @@ Primary Issues Addressed
 * Support for `a{text-object}` and `i{text-object}` in Visual Mode (`aB`, `a<`, etc ...)
 * Support for :global command
 * Support for block insertion
-* Support for 'viw'. 
+* Support for 'viw'.
 * Support for exclusive selections in Visual Mode
 * Many key mapping issues involving key modifiers and non-alpha keys
 * Repeating of Enter now better handles indentation
 * Continued performance tuning of :hlsearch
 
 ### Version 1.1.2
-Milestone: https://github.com/jaredpar/VsVim/issues?sort=created&direction=desc&state=closed&page=1&milestone=22
+[Issues closed in milestone 1.1.2](https://github.com/jaredpar/VsVim/issues?sort=created&direction=desc&state=closed&page=1&milestone=22)
 
 Primary Issues Addressed
 
 * Performance of :hlseach
 * Maintaining vertical caret column
-* Several tabs / spaces issues including cc, caret column and repeat of 'cw', 
-* Tab on new line inserts tab on previous line 
+* Several tabs / spaces issues including cc, caret column and repeat of 'cw',
+* Tab on new line inserts tab on previous line
 
 ### Version 1.1.1
-Milestone: https://github.com/jaredpar/VsVim/issues?milestone=19&sort=created&direction=desc&state=closed
+[Issues closed in milestone 1.1.1](https://github.com/jaredpar/VsVim/issues?milestone=19&sort=created&direction=desc&state=closed)
 
 Primary Issues Addressed
 
@@ -143,39 +143,39 @@ Primary Issues Addressed
 * Upper case marks broken in 1.1
 * Replace command not working for international characters
 * Intellisense, quick info causing an exception in Visual Studio 11
-* Crash when dragging the window splitter from visual mode 
+* Crash when dragging the window splitter from visual mode
 * CTRL-O didn't support commands that switched to visual or command mode
 
 **Patch 1**
 
-* Vim undo command causing too many Visual Studio undos to occur.  
-* VsVim not running on machines with only Visual Studio 11 installed 
+* Vim undo command causing too many Visual Studio undos to occur.
+* VsVim not running on machines with only Visual Studio 11 installed
 
-### Version 1.1.0 
-Milestone: https://github.com/jaredpar/VsVim/issues?sort=created&direction=desc&state=closed&page=1&milestone=10
+### Version 1.1.0
+[Issues closed in milestone 1.1](https://github.com/jaredpar/VsVim/issues?sort=created&direction=desc&state=closed&page=1&milestone=10)
 
 Primary Issues Addressed
 
 * Insert mode largely rewritten. Better support for repeat and commands like CTRL-I, CTRL-M, CTRL-H, etc ...
-* CTRL-N and CTRL-P support added. 
-* CTRL-A and CTRL-X support added.  Keys must be manually mapped to VsVim to avoid unexpected conflicts with select all and cut. 
+* CTRL-N and CTRL-P support added.
+* CTRL-A and CTRL-X support added.  Keys must be manually mapped to VsVim to avoid unexpected conflicts with select all and cut.
 * Added support for the gv command
-* VsVim will now preserve non-CRLF line endings 
+* VsVim will now preserve non-CRLF line endings
 * Support added for Dev11 preview
 
 ### Version 1.0.3
-Milestone: https://github.com/jaredpar/VsVim/issues?milestone=17&state=closed
+[Issues closed in milestone 1.0.3](https://github.com/jaredpar/VsVim/issues?milestone=17&state=closed)
 
 Primary Issues Addressed
 
-* Shift-C was placing the caret in the incorrect position.  
-* End key was cancelling Visual Mode 
-* Enter and Back were causing issues with R# in certain scenarios 
+* Shift-C was placing the caret in the incorrect position.
+* End key was cancelling Visual Mode
+* Enter and Back were causing issues with R# in certain scenarios
 
 ### Version 1.0.2
-Milestone: https://github.com/jaredpar/VsVim/issues?milestone=16&state=closed
+[Issues closed in milestone 1.0.2](https://github.com/jaredpar/VsVim/issues?milestone=16&state=closed)
 
 Primary Issues Addressed
 
 * Crash which occurred after closing tabs.  Most often repro'd when combined with Pro Power Tools
-* Key mappings which contained multiple inputs didn't behave properly in insert mode 
+* Key mappings which contained multiple inputs didn't behave properly in insert mode
