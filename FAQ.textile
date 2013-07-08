@@ -98,9 +98,9 @@ Recent versions of Visual Assist are compatible with VsVim.  If you are seeing a
 <a name="porting"></a>
 *Porting VsVim to other applications*
 
-https://github.com/jaredpar/VsVim/wiki/Porting-VsVim-to-other-applications
+[[Porting-VsVim-to-other-applications]]
 
 <a name="ptvs2013"></a>
 *Failure of VsVim to load in Python Tools for Visual Studio 2013 Preview Edition*
 
-https://github.com/jaredpar/VsVim/wiki/PTVS-2013-Preview-and-VsVim
+[[PTVS-2013-Preview-and-VsVim]]
