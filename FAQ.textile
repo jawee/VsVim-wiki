@@ -10,7 +10,8 @@
 * <a href="#language">Why is so much of this written in F#?</a>
 * <a href="#drops">Where can i get older drops?</a>
 * <a href="#vax">Visual Assist Compatibility</a>
-* <a href="porting">Porting VsVim to other applications</a>
+* <a href="#porting">Porting VsVim to other applications</a>
+* <a href="#ptvs2013">Python Tools 2013 Preview</a>
 
 <a name="oss"></a>
 *Does this project accept contributions?*
@@ -98,3 +99,8 @@ Recent versions of Visual Assist are compatible with VsVim.  If you are seeing a
 *Porting VsVim to other applications*
 
 https://github.com/jaredpar/VsVim/wiki/Porting-VsVim-to-other-applications
+
+<a name="ptvs2013"></a>
+*Failure of VsVim to load in Python Tools for Visual Studio 2013 Preview Edition*
+
+https://github.com/jaredpar/VsVim/wiki/PTVS-2013-Preview-and-VsVim
