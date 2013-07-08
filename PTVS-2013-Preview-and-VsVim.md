@@ -13,6 +13,9 @@ To work around this problem do the following.
 3. Delete this directory `%LOCALAPPDATA%\Microsoft\VisualStudio\12.0\ComponentModelCache`
 4. Restart Visual Studio 
 
+**WARNING:** direct edits to devenv.exe.config are potentially dangerous. I tested out my changes locally and I'm confident this won't have any unforseen issues. This is not a guarantee though.  I'm working on a less hacky solution for this problem.  
+
+
 Tracking bug is in PTVS right now.  
 
 https://pytools.codeplex.com/workitem/1464
