@@ -13,3 +13,5 @@ The best place to look is at existing Visual Studio Extensions that are open sou
 - https://github.com/dungpa/fantomas - undo integration, command handling
 
 Another good resource is the MSDN forums.  A lot of the Visual Studio developers monitor that group, Ryan included, and give great answers to the hard questions there.  
+
+- http://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio
