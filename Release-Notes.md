@@ -1,5 +1,14 @@
 # Release Notes
 
+### Version 1.4.2
+[Issues closed in milestone 1.4.2](https://github.com/jaredpar/VsVim/issues?milestone=36&page=1&state=closed)
+
+Primary Issues Addressed
+* Support for scrolloff setting
+* R# integration issues
+* Several block insert bugs
+* :wa not saving properly in html files
+
 ### Version 1.4.1
 [Issues closed in milestone 1.4.1](https://github.com/jaredpar/VsVim/issues?milestone=35&page=1&state=closed)
 
