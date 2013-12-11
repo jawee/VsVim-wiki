@@ -106,7 +106,7 @@ Recent versions of Visual Assist are compatible with VsVim.  If you are seeing a
 
 [[PTVS-2013-Preview-and-VsVim]]
 
-<a name="blinks"></a>
+<a name="blinking"></a>
 *The cursor blinks now*
 
 VsVim obeys your operating system cursor blink rate preferences.  If you don't like it, set it to none in:
