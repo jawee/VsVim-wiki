@@ -13,3 +13,5 @@ Welcome to the VsVim wiki!
 <a href="http://visualstudiogallery.msdn.microsoft.com/en-us/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329">VsVim on Visual Studio Gallery</a>
 
 [[3rd Party Editor Support Beta Page|https://github.com/jaredpar/VsVim/wiki/3rd-party-plugin-support-(R%23,-Code-Rush,-etc-...)]]
+
+[[Settings-Reference]]
