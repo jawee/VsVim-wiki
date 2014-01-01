@@ -2,7 +2,7 @@ This is a snapshot of the list of supported settings that can be issued as comma
 
 If the setting is a toggle, you can use either `set <setting>` or `set no<setting>`, e.g. `set hlsearch` or `set nohlsearch`.  If the setting is a number or a string you can use `set <setting>=<value>`, e.g. `set shiftwidth=4`.  Unless otherwise documented, settings are intended to be compatible with `vim`.
 
-Authoritative information can found in the source code for [option names](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettingsInterface.fs) and [their defaults](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettings.fs).
+Authoritative information can found in the source code for [setting names](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettingsInterface.fs) and [their defaults](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettings.fs).
 
 ### Global Settings
 * `vsvim_autocmd` - toggle - enable running auto commands (also requires `novsvim_useeditordefaults`), see [AutoCmd Support](AutoCmd-support)
