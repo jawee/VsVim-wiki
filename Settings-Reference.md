@@ -1,12 +1,14 @@
-This is the list of supported settings that can be issued as commands or included in the rc file.
+This is a snapshot of the list of supported settings that can be issued as commands or included in the rc file.
 
 If the setting is a toggle, you can use either `set <setting>` or `set no<setting>`, e.g. `set hlsearch` or `set nohlsearch`.  If the setting is a number or a string you can use `set <setting>=<value>`, e.g. `set shiftwidth=4`.  Unless otherwise documented, settings are intended to be compatible with `vim`.
 
-# Global Settings
-* `vsvim_autocmd` - toggle - enable running auto commands (also requires `novsvim_useeditordefaults`)
+Authoritative can found in the source code to see the [option names](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettingsInterface.fs) and [their defaults](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettings.fs).
+
+### Global Settings
+* `vsvim_autocmd` - toggle - enable running auto commands (also requires `novsvim_useeditordefaults`), see [AutoCmd Support](AutoCmd-support)
 * `backspace` - string
 * `vsvimcaret` - number - opacity of the caret block from `0` to `100` (higher is more opaque)
-* `vsvim_controlchars` - toggle - (see [Control Character Display](Control-Character-Display))
+* `vsvim_controlchars` - toggle - see [Control Character Display](Control-Character-Display)
 * `cdpath` - string
 * `clipboard` - string
     * `unnamed`
@@ -45,7 +47,7 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
 * `vimrcpaths` - string
 * `wrapscan` - toggle
 
-# Local Settings
+### Local Settings
 * `autoindent` - toggle
 * `expandtab` - toggle
 * `number` - toggle
@@ -54,6 +56,6 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
 * `tabstop` - number
 * `quoteescape` - string
 
-# Window Settings
+### Window Settings
 * `cursorline` - toggle
 * `scroll` - number
