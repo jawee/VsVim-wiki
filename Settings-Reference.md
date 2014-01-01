@@ -1,10 +1,17 @@
+This is the list of supported settings that can be issued as commands or included in the rc file.
+
+If the setting is a toggle, you can use either `set <setting>` or `set no<setting>`, e.g. `set hlsearch` or `set nohlsearch`.  If the setting is a number or a string you can use `set <setting>=<value>`, e.g. `set shiftwidth=4`.  Unless otherwise documented, settings are intended to be compatible with `vim`.
+
 # Global Settings
-* `vsvim_autocmd` - toggle
+* `vsvim_autocmd` - toggle - enable running auto commands (also requires `novsvim_useeditordefaults`)
 * `backspace` - string
-* `vsvimcaret` - number
-* `vsvim_controlchars` - toggle
+* `vsvimcaret` - number - opacity of the caret block from `0` to `100` (higher is more opaque)
+* `vsvim_controlchars` - toggle - (see [Control Character Display](Control-Character-Display))
 * `cdpath` - string
-* `clipboard` - 
+* `clipboard` - string
+    * `unnamed`
+    * `autoselect`
+    * `autoselectml`
 * `hlsearch` - toggle
 * `history` - number
 * `ignorecase` - toggle
@@ -31,7 +38,7 @@
 * `timeoutlen` - number
 * `ttimeoutlen` - number
 * `vsvim_useeditorindent` - toggle
-* `vsvim_useeditordefaults` - toggle
+* `vsvim_useeditordefaults` - toggle - prefer editor defaults for options such as `shiftwidth`
 * `visualbell` - toggle
 * `virtualedit` - string
 * `vimrc` - string
