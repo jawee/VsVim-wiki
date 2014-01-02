@@ -5,7 +5,7 @@ Authoritative information can found in the source code for [setting names](https
 For compatibility reasons, if you do not have any rc file, VsVim will uses prefer settings configured by Visual Studio such as tab and space settings.  However, if you do have an rc file, VsVim will prefer the settings configured in that file or its own vim-compatible defaults (such as tab stops of 8).  To have both an rc file and yet continue to let Visual Studio settings override VsVim settings, use `vsvim_useeditordefaults` (see [Defaults for Settings](Defaults-for-Settings) for more details).
 
 ## RC File
-Like Vim, VsVim uses an rc file its settings.  VsVim will check the following candidate rc folders:
+Like Vim, VsVim uses an rc file for its settings.  VsVim will check the following candidate rc folders:
 * `%HOME%`
 * `%HOMEDRIVE%%HOMEPATH%`
 * `C:\`
@@ -20,7 +20,6 @@ You can use the `set` command (with no arguments) interactively to see what file
 
 ## Settings
 If the setting is a toggle, you can use either `set <setting>` or `set no<setting>`, e.g. `set hlsearch` or `set nohlsearch`.  If the setting is a number or a string you can use `set <setting>=<value>`, e.g. `set shiftwidth=4`.  Unless otherwise documented, settings are intended to be compatible with `vim`.
-
 
 ### Global Settings
 * `vsvim_autocmd` - toggle - enable running auto commands (also requires `novsvim_useeditordefaults`), see [AutoCmd Support](AutoCmd-support)
@@ -75,5 +74,5 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
 * `quoteescape` - string
 
 ### Window Settings
-* `cursorline` - toggle
+* `cursorline` - toggle - [vim documentation](http://vimhelp.appspot.com/options.txt.html#%27cursorline%27)
 * `scroll` - number
