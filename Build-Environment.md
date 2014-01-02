@@ -16,6 +16,16 @@ The extension solutions are set up to debug the VsVim that is built inside an ex
 
 Core editor feature development and testing is made faster and easier by using the VimApp standalone application.  The whole of Visual Studio doesn't have to fire up, breakpoints are reached sooner, etc.
 
+### Installing
+
+To install the version you built into your "normal" instance of Visual Studio:
+
+* remove any previous version of VsVim using Tools -> Extensions and Updates...
+* close Visual Studio
+* double-click, e.g., the file `Src\VsVim\bin\Release\VsVim.vsix`
+
+Installation of vsix files can also be done manually (assuming the extension is not already installed in a different folder) by simply unzipping the vsix file into any folder under, e.g., `%LOCALAPPDATA%\Microsoft\VisualStudio\11.0\Extensions` and deleting the corresponding cache file, e.g., `%LOCALAPPDATA%\Microsoft\VisualStudio\11.0\Extensions\extensions.en-US.cache`.  If this approach is used, the first time it is installed this way it will be disabled but can be enabled using the extension manager.
+
 ### Branching Structure
 
 * master: Stable branch 
