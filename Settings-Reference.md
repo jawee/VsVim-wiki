@@ -8,7 +8,8 @@ For compatibility reasons, if you do not have any rc file, VsVim will uses prefe
 Like Vim, VsVim uses an rc file for its settings.  VsVim will check the following candidate rc folders:
 * `%HOME%`
 * `%HOMEDRIVE%%HOMEPATH%`
-* `C:\`
+* `%VIM%`
+* `%USERPROFILE%`
 
 Once it finds a folder, it will check for the following candidate rc files:
 * `.vsvimrc`
