@@ -1,14 +1,15 @@
 ### Building
 
-1. Install the Visual Studio SDK 
-2. Open the Solution VsVim.sln
-3. Build
+1. Install the [Visual Studio 2010 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=2680)
+2. Install the [Visual Studio 2012 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=30668)
+3. Open the Solution `VsVim.sln`
+4. Build
 
 ### Solutions
 
-* VimCore.sln - the part of VsVim that doesn't depend on the full Visual Studio environment
-* VsVim.sln - will only work on machines with both Visual Studio 2010 and 2012 installed
-* VimAll.sln - like VsVim.sln but includes VimApp which isolates VsVim into a standalone application
+* `VimCore.sln` - the part of VsVim that doesn't depend on the full Visual Studio environment
+* `VsVim.sln` - builds the VsVim Visual Studio extension
+* `VimAll.sln` - like `VsVim.sln` but includes VimApp which isolates VsVim into a standalone application
 
 ### Debugging
 
