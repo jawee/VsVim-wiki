@@ -8,13 +8,15 @@ For compatibility reasons, if you do not have any rc file, VsVim will uses prefe
 Like Vim, VsVim uses an rc file its settings.  VsVim will check the following candidate rc folders:
 * `%HOME%`
 * `%HOMEDRIVE%%HOMEPATH%`
-* `c:\`
+* `C:\`
 
 Once it finds a folder, it will check for the following candidate rc files:
 * `.vsvimrc`
 * `_vsvimrc`
 * `.vimrc`
 * `_vimrc`
+
+You can use the `set` command (with no arguments) interactively to see what file VsVim found and loaded.
 
 ## Settings
 If the setting is a toggle, you can use either `set <setting>` or `set no<setting>`, e.g. `set hlsearch` or `set nohlsearch`.  If the setting is a number or a string you can use `set <setting>=<value>`, e.g. `set shiftwidth=4`.  Unless otherwise documented, settings are intended to be compatible with `vim`.
