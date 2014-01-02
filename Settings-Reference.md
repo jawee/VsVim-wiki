@@ -4,6 +4,7 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
 
 Authoritative information can found in the source code for [setting names](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettingsInterface.fs) and [their defaults](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettings.fs).
 
+For compatibility reasons, if you do not have any rc file, VsVim will uses prefer settings configured by Visual Studio such as tab and space settings.  However, if you do have an rc file, VsVim will prefer the settings configured in that file or it's own vim-compatible defaults (such as tab stops of 8).  To have both an rc file and yet continue to let Visual Studio settings override VsVim settings, use `vsvim_useeditordefaults` (see [Defaults for Settings](Defaults-for-Settings) for more details).
 ### Global Settings
 * `vsvim_autocmd` - toggle - enable running auto commands (also requires `novsvim_useeditordefaults`), see [AutoCmd Support](AutoCmd-support)
 * `backspace` - string
