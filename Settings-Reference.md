@@ -2,7 +2,7 @@ This is a snapshot of the list of supported settings that can be issued as comma
 
 Authoritative information can found in the source code for [setting names](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettingsInterface.fs) and [their defaults](https://github.com/jaredpar/VsVim/blob/master/Src/VimCore/VimSettings.fs).
 
-For compatibility reasons, if you do not have any rc file, VsVim will uses prefer settings configured by Visual Studio such as tab and space settings.  However, if you do have an rc file, VsVim will prefer the settings configured in that file or its own vim-compatible defaults (such as tab stops of 8).  To have both an rc file and yet continue to let Visual Studio settings override VsVim settings, use `vsvim_useeditordefaults` (see [Defaults for Settings](Defaults-for-Settings) for more details).
+For compatibility reasons, if you do not have any rc file, VsVim will prefer settings configured by Visual Studio such as tab and space settings.  However, if you do have an rc file, VsVim will prefer the settings configured in that file or its own vim-compatible defaults (such as tab stops of 8).  To have both an rc file and yet continue to let Visual Studio settings override VsVim settings, use `vsvim_useeditordefaults` (see [Defaults for Settings](Defaults-for-Settings) for more details).
 
 ## RC File
 Like Vim, VsVim uses an rc file for its settings.  VsVim will check the following candidate rc folders:
