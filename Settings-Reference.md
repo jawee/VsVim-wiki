@@ -24,7 +24,10 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
 
 ### Global Settings
 * `vsvim_autocmd` - toggle - enable running auto commands (also requires `novsvim_useeditordefaults`), see [AutoCmd Support](AutoCmd-support)
-* `backspace` - string
+* `backspace` - string - [vim documentation](http://vimhelp.appspot.com/options.txt.html#%27backspace%27)
+    * `indent` - not supported yet
+    * `start` - partial support
+    * `eol` - not supported yet
 * `vsvimcaret` - number - opacity of the caret block from `0` to `100` (higher is more opaque)
 * `vsvim_controlchars` - toggle - see [Control Character Display](Control-Character-Display)
 * `cdpath` - string
@@ -59,8 +62,9 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
 * `ttimeoutlen` - number
 * `vsvim_useeditorindent` - toggle
 * `vsvim_useeditordefaults` - toggle - prefer editor defaults for options such as `shiftwidth`
-* `visualbell` - toggle
-* `virtualedit` - string
+* `visualbell` - toggle - [vim documentation](http://vimhelp.appspot.com/options.txt.html#%27visualbell%27)
+* `virtualedit` - string - [vim documentation](http://vimhelp.appspot.com/options.txt.html#%27virtualedit%27)
+    * `onemore` - supported
 * `vimrc` - string
 * `vimrcpaths` - string
 * `wrapscan` - toggle
