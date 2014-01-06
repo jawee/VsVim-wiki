@@ -1,5 +1,7 @@
 [[Default Settings Change Announcement|Defaults-for-Settings]]
 
+* <a href="#features">What features are supported?</a>
+* <a href="#settings">What settings are supported?</a>
 * <a href="#oss">Does this project accept contributions?</a>
 * <a href="#nosupport">How can I get feature X implemented / supported?</a>
 * <a href="#advanced">Why don't Ctrl-V, Ctrl-A and Ctrl-X work in Visual Studio?</a>
@@ -13,6 +15,17 @@
 * <a href="#porting">Porting VsVim to other applications</a>
 * <a href="#ptvs2013">Python Tools 2013 Preview</a>
 * <a href="#blinking">The cursor blinks now</a>
+* <a href="#building">How do I build it myself?</a>
+
+<a name="features"></a>
+*What features are supported?*
+
+Quite a few and more are being added all the time.  See [[Supported Features|Supported-Features]] for more details.
+
+<a name="settings"></a>
+*What settings are supported?*
+
+Hopefully, your favorite vim settings are supported.  Check [[Settings Reference|Settings-Reference]] to find out.
 
 <a name="oss"></a>
 *Does this project accept contributions?*
@@ -112,3 +125,8 @@ Recent versions of Visual Assist are compatible with VsVim.  If you are seeing a
 VsVim obeys your operating system cursor blink rate preferences.  If you don't like it, set it to none in:
 
 bq. Control Panel -> Keyboard -> Cursor blink rate
+
+<a name="building"></a>
+*How do I build it myself?*
+
+See [[Build Environment|Build-Environment]] for details.
