@@ -4,7 +4,9 @@ Welcome to the VsVim wiki!
 
 [[FAQ]]
 
-[[Release-Notes]]
+[[Release Notes|Release-Notes]]
+
+[[Supported Features|Supported-Features]]
 
 [[Setting Reference|Settings-Reference]]
 
