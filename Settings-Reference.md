@@ -71,7 +71,7 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
     * `b` - supported
     * `s` - supported
     * `h` - supported
-    * `h` - supported
+    * `l` - supported
     * `<` - supported
     * `>` - supported
     * `~` - not supported yet
