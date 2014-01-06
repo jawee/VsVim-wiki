@@ -67,6 +67,16 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
     * `onemore` - supported
 * `vimrc` - string
 * `vimrcpaths` - string
+* `whichwrap` - string - [vim documentation](http://vimhelp.appspot.com/options.txt.html#%27whichwrap%27)
+    * `b` - supported
+    * `s` - supported
+    * `h` - supported
+    * `h` - supported
+    * `<` - supported
+    * `>` - supported
+    * `~` - not supported yet
+    * `[` - not supported yet
+    * `]` - not supported yet
 * `wrapscan` - toggle
 
 ### Local Settings
