@@ -44,13 +44,21 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
 * `magic` - toggle
 * `vsvim_maxmapcount` - number
 * `maxmapdepth` - number
-* `mousemodel` - string
+* `mousemodel` - string - [vim documentation](http://vimhelp.appspot.com/options.txt.html#%27mousemodel%27), see also [behave](http://vimhelp.appspot.com/gui.txt.html#%3Abehave)
+    * `extend` - supported
+    * `popup`
+    * `popup_setpos`
 * `paragraphs` - string
 * `path` - string
 * `scrolloff` - number
 * `sections` - string
-* `selection` - string
-* `selectmode` - string
+* `selection` - string - [vim documentation](http://vimhelp.appspot.com/options.txt.html#%27selection%27), see also [behave](http://vimhelp.appspot.com/gui.txt.html#%3Abehave)
+    * `inclusive` - supported
+    * `exclusive` - supported
+* `selectmode` - string - [vim documentation](http://vimhelp.appspot.com/options.txt.html#%27selectmode%27), see also [behave](http://vimhelp.appspot.com/gui.txt.html#%3Abehave)
+    * `mouse` - supported
+    * `key` - supported
+    * `cmd`
 * `shell` - string
 * `shellcmdflag` - string
 * `smartcase` - toggle
@@ -75,8 +83,8 @@ If the setting is a toggle, you can use either `set <setting>` or `set no<settin
     * `<` - supported
     * `>` - supported
     * `~` - not supported yet
-    * `[` - not supported yet
-    * `]` - not supported yet
+    * `[` - supported
+    * `]` - supported
 * `wrapscan` - toggle
 
 ### Local Settings
