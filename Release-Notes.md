@@ -1,5 +1,15 @@
 # Release Notes
 
+### Version 1.5.0
+[Issues closed in milestone 1.5.0](https://github.com/jaredpar/VsVim/issues?milestone=38&page=1&state=closed)
+
+Primary Issues Addressed
+* Search offsets 
+* <kbd>Ctrl+T</kbd> in insert mode
+* <kbd>Ctrl+E</kbd> and <kbd>Ctrl+Y</kbd> scroll bugs
+* End of line issues with <kbd>r<kbd>
+* Support for Peek Definition Window
+
 ### Version 1.4.2
 [Issues closed in milestone 1.4.2](https://github.com/jaredpar/VsVim/issues?milestone=36&page=1&state=closed)
 
