@@ -1,9 +1,11 @@
 ### Building
 
-1. Install the [Visual Studio 2010 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=2680)
-2. Install the [Visual Studio 2012 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=30668)
-3. Open the Solution `VsVim.sln`
-4. Build
+1. Install the Visual SDK for your Visual Studio Version:
+    * [Visual Studio 2010 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=2680)
+    * [Visual Studio 2012 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=30668)
+    * [Visual Studio 2013 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=40758)
+2. Open the Solution `VsVim.sln`
+3. Build
 
 ### Solutions
 
