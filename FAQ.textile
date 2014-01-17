@@ -16,6 +16,7 @@
 * <a href="#ptvs2013">Python Tools 2013 Preview</a>
 * <a href="#blinking">The cursor blinks now</a>
 * <a href="#building">How do I build it myself?</a>
+* <a href="#keyboard">Why doesn't the Ctrl+[ key (or some other key) work?</a>
 
 <a name="features"></a>
 *What features are supported?*
@@ -129,4 +130,7 @@ bq. Control Panel -> Keyboard -> Cursor blink rate
 <a name="building"></a>
 *How do I build it myself?*
 
-See [[Build Environment|Build-Environment]] for details.
+<a name="keyboard"></a>
+*Why doesn't the Ctrl+[ key (or some other key) work*
+
+VsVim tries hard to make as many keys that you that you are accustomed to using in vim available.  If for some reason a key is not working, try [[Troubleshooting the Keyboard|Troubleshooting-the-Keyboard]].
