@@ -10,6 +10,8 @@ Welcome to the VsVim wiki!
 
 [[Settings Reference|Settings-Reference]]
 
+[[Troubleshooting the Keyboard|Troubleshooting-the-Keyboard]]
+
 [[Build Environment|Build-Environment]]
 
 [[Older Drops|https://www.dropbox.com/sh/pqxkvemji983alf/kZ3a2dUplB]]
