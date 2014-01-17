@@ -130,6 +130,8 @@ bq. Control Panel -> Keyboard -> Cursor blink rate
 <a name="building"></a>
 *How do I build it myself?*
 
+See [[Build Environment|Build-Environment]] for details.
+
 <a name="keyboard"></a>
 *Why doesn't the Ctrl+[ key (or some other key) work*
 
