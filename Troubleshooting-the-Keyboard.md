@@ -3,11 +3,13 @@ VsVim tries to let you use almost all of vim's standard key bindings.  However, 
 ### How It's Supposed to Work
 
 * VsVim detects any key bindings that would conflict with you using it in the editor
+* If there are any new conflicts, VsVim will warn you in the top margin of editor
 * The options dialog displays keys that have conflicts
 * For each key, you choose which is less worse: Let Visual Studio handle the key or let VsVim handle the key
-* When you let VsVim handle the key, VsVim **unbinds all the conflicting keys** in Visual Studio
+* When you let VsVim handle the key, VsVim **unbinds all the conflicting keys** in Visual Studio, but records the old bindings (the ones displayed in the dropdown) so it can put them back if you change your mind
+* If you reset all your Visual Studio settings or make changes to bindings in Visual Studio after adjusting them in VsVim, VsVim should notice the conflict and warn you again
 
-### What If I Choose Handled by VsVsim but the key doesn't Work?
+### What If I Choose Handled by VsVsim but the Key Still Doesn't Work?
 
 It may happen that you are willing to give up other uses of a key and so you choose "Handled by VsVim" but the key still doesn't work.  Let's say the `Ctrl+[` key to go to normal mode isn't working.
 
