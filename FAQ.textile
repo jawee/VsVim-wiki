@@ -17,6 +17,7 @@
 * <a href="#blinking">The cursor blinks now</a>
 * <a href="#building">How do I build it myself?</a>
 * <a href="#keyboard">Why doesn't the Ctrl+[ key (or some other key) work?</a>
+* <a href="#selection">Text selection doesn't work right.  Can this be fixed?</a>
 
 <a name="features"></a>
 *What features are supported?*
@@ -133,6 +134,11 @@ bq. Control Panel -> Keyboard -> Cursor blink rate
 See [[Build Environment|Build-Environment]] for details.
 
 <a name="keyboard"></a>
-*Why doesn't the Ctrl+[ key (or some other key) work*
+*Why doesn't the Ctrl+[ key (or some other key) work?*
 
 VsVim tries hard to make as many keys that you that you are accustomed to using in vim available.  If for some reason a key is not working, try [[Troubleshooting the Keyboard|Troubleshooting-the-Keyboard]].
+
+<a name="selection"></a>
+*Text selection doesn't work right.  Can this be fixed?*
+
+If you are not accustomed to vim's visual mode but still want vi-like keybindings, you can enable select mode which is much more like the select you are familiar with in Visual Studio. See [[VsVim Nonstandard Behavior|VsVim-Nonstandard-Behavior#wiki-ctrl-x-ctrl-c-ctrl-v]], in particular <pre><code>behave mswin</code></pre>.
