@@ -5,10 +5,12 @@ To work around this problem do the following.
 1. Close Visual Studio
 2. Comment out the following lines in `C:\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe.config`
 
-`            <dependentAssembly>`
-`              <assemblyIdentity name="FSharp.Core" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>`
-`              <bindingRedirect oldVersion="2.0.0.0-4.3.0.0" newVersion="4.3.1.0"/>`
-`            </dependentAssembly>`
+```
+            <dependentAssembly>
+              <assemblyIdentity name="FSharp.Core" publicKeyToken="b03f5f7f11d50a3a" culture="neutral"/>
+              <bindingRedirect oldVersion="2.0.0.0-4.3.0.0" newVersion="4.3.1.0"/>
+            </dependentAssembly>
+```
 
 3. Delete this directory `%LOCALAPPDATA%\Microsoft\VisualStudio\12.0\ComponentModelCache`
 4. Restart Visual Studio 
