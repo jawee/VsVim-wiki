@@ -12,6 +12,7 @@ The best place to look is at existing Visual Studio Extensions that are open sou
 - https://github.com/paulcbetts/SaveAllTheTime - reactive solution in VS, save integration, adornments
 - https://github.com/dungpa/fantomas - undo integration, command handling
 - https://github.com/madskristensen/WebEssentials2013 - these guys integrate into so many corners of Visual Studio
+- https://pytools.codeplex.com/ - one of the few OSS projects which has a fully integrated language 
 
 Another good resource is the MSDN forums.  A lot of the Visual Studio developers monitor that group, Ryan included, and give great answers to the hard questions there.  
 
