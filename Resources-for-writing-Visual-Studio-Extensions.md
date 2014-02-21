@@ -6,6 +6,7 @@ While there is sparse documentation for the older IVs style interfaces, there is
 
 The best place to look is at existing Visual Studio Extensions that are open source.  Their sources already contain many of the solutions you are looking for.  Here are a few of note
 
+- https://github.com/jaredpar/EditorUtils - extensible async and sync tagger infrastructure, simple outlining, basic undo stack
 - https://github.com/jaredpar/VsVim - taggers, adornments, key stroke handling, mouse handling, custom editting, undo integration
 - https://nuget.codeplex.com - project system integration, custom tool windows, context menu, build integration
 - https://github.com/ryanmolden - Ryan is a developer in Visual Studio and puts up great little samples on not so obvious patterns which are commonly requested by customers.  I **frequently** seek him out for help on problems I am having.  
