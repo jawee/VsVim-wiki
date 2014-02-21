@@ -14,6 +14,7 @@ The best place to look is at existing Visual Studio Extensions that are open sou
 - https://github.com/dungpa/fantomas - undo integration, command handling
 - https://github.com/madskristensen/WebEssentials2013 - these guys integrate into so many corners of Visual Studio that it's hard to create a simple summary
 - https://pytools.codeplex.com/ - one of the few OSS projects which has a fully integrated language 
+- https://github.com/jaredpar/RoundTripVSIX - demonstrates via commit change log how to make a VSIX that will round trip into any version of Visual Studio 
 
 Another good resource is the MSDN forums.  A lot of the Visual Studio developers monitor that group, Ryan included, and give great answers to the hard questions there.  
 
