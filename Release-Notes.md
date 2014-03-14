@@ -1,5 +1,8 @@
 # Release Notes
 
+### Version 1.6.0
+[Issues closed in milestone 1.6.0](https://github.com/jaredpar/VsVim/issues?milestone=39&page=1&state=closed)
+
 ### Version 1.5.0
 [Issues closed in milestone 1.5.0](https://github.com/jaredpar/VsVim/issues?milestone=38&page=1&state=closed)
 
