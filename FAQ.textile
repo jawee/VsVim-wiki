@@ -52,9 +52,9 @@ Note: Ctrl-A and Ctrl-X aren't available until 1.1
 <a name="backspace"></a>
 *Why can't I backspace in insert mode?*
 
-VsVim implements the vim `backspace` setting.  The default value for this setting doesn't allow backspace at the start of insert mode.  If you have a `vimrc` file VsVim will respect this setting and behave as vim would.  To change this behavior add the following to your `vimrc` file 
+VsVim implements the Vim <code>backspace</code> setting.  The default value for this setting doesn't allow backspace at the start of insert mode.  If you have a <code>vimrc</code> file VsVim will respect this setting and behave as Vim would.  To change this behavior add the following to your <code>vimrc</code> file 
 
-    set backspace=indent,eol,start
+<pre><code>set backspace=indent,eol,start</pre></code>
 
 <a name="disablekey"></a>
 *When I uninstall VsVim why do keys like Delete no longer work?*
