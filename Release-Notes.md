@@ -3,6 +3,13 @@
 ### Version 1.6.0
 [Issues closed in milestone 1.6.0](https://github.com/jaredpar/VsVim/issues?milestone=39&page=1&state=closed)
 
+Primary Issues Addressed
+* Added support for `backspace` and `whichwrap`
+* Major make over of select mode 
+* <kbd>Ctrl+F</kbd> search window no longer conflicts with VsVim
+* Better support for Peek Definition window
+* Mouse clicks now supported as keyboard commands
+
 ### Version 1.5.0
 [Issues closed in milestone 1.5.0](https://github.com/jaredpar/VsVim/issues?milestone=38&page=1&state=closed)
 
