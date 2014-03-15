@@ -9,6 +9,10 @@ Primary Issues Addressed
 * <kbd>Ctrl+F</kbd> search window no longer conflicts with VsVim
 * Better support for Peek Definition window
 * Mouse clicks now supported as keyboard commands
+* <kbd>Ctrl+U</kbd> in insert mode 
+
+Patched Issues in 1.6.0.1
+* Beep when selecting with mouse 
 
 ### Version 1.5.0
 [Issues closed in milestone 1.5.0](https://github.com/jaredpar/VsVim/issues?milestone=38&page=1&state=closed)
