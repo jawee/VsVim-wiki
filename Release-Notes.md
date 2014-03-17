@@ -21,7 +21,7 @@ Primary Issues Addressed
 * Search offsets 
 * <kbd>Ctrl+T</kbd> in insert mode
 * <kbd>Ctrl+E</kbd> and <kbd>Ctrl+Y</kbd> scroll bugs
-* End of line issues with <kbd>r<kbd>
+* End of line issues with <kbd>r</kbd>
 * Support for Peek Definition Window
 
 ### Version 1.4.2
