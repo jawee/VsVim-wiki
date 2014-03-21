@@ -14,6 +14,10 @@ Primary Issues Addressed
 Patched Issues in 1.6.0.1
 * Beep when selecting with mouse 
 
+Patched Issues in 1.6.0.2
+* Backspace issues over virtual space in insert mode
+* Unhandled exception when using `:wq`
+
 ### Version 1.5.0
 [Issues closed in milestone 1.5.0](https://github.com/jaredpar/VsVim/issues?milestone=38&page=1&state=closed)
 
