@@ -19,6 +19,7 @@
 * <a href="#building">How do I build it myself?</a>
 * <a href="#keyboard">Why doesn't the Ctrl+[ key (or some other key) work?</a>
 * <a href="#selection">Text selection doesn't work right.  Can this be fixed?</a>
+* <a href="#options">How do I go back to resolve conflicting keyboard shortcuts?</a>
 
 <a name="features"></a>
 *What features are supported?*
@@ -149,3 +150,9 @@ VsVim tries hard to make as many keys that you that you are accustomed to using 
 *Text selection doesn't work right.  Can this be fixed?*
 
 If you are not accustomed to vim's visual mode but still want vi-like keybindings, you can enable select mode which is much more like the select you are familiar with in Visual Studio. See [[VsVim Nonstandard Behavior|VsVim-Nonstandard-Behavior#wiki-ctrl-x-ctrl-c-ctrl-v]], in particular <pre><code>behave mswin</code></pre>.
+
+
+<a name="options"></a>
+*How do I go back to resolve conflicting keyboard shortcuts?*
+
+Open VsVim options using the button to the right of the commandline (at the bottom right of your editor window)
