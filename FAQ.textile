@@ -19,7 +19,7 @@
 * <a href="#building">How do I build it myself?</a>
 * <a href="#keyboard">Why doesn't the Ctrl+[ key (or some other key) work?</a>
 * <a href="#selection">Text selection doesn't work right.  Can this be fixed?</a>
-* <a href="#options">How do I go back to resolve conflicting keyboard shortcuts?</a>
+* <a href="#options">How do I go back to resolve conflicting keybindings?</a>
 
 <a name="features"></a>
 *What features are supported?*
@@ -153,6 +153,6 @@ If you are not accustomed to vim's visual mode but still want vi-like keybinding
 
 
 <a name="options"></a>
-*How do I go back to resolve conflicting keyboard shortcuts?*
+*How do I go back to resolve conflicting keybindings?*
 
 Open VsVim options using the button to the right of the commandline (at the bottom right of your editor window)
