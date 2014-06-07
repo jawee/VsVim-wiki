@@ -18,6 +18,9 @@ Patched Issues in 1.6.0.2
 * Backspace issues over virtual space in insert mode
 * Unhandled exception when using `:wq`
 
+Patched Issues in 1.6.0.3
+* Support for Dev14 
+
 ### Version 1.5.0
 [Issues closed in milestone 1.5.0](https://github.com/jaredpar/VsVim/issues?milestone=38&page=1&state=closed)
 
