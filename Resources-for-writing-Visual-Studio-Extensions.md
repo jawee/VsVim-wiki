@@ -19,3 +19,7 @@ The best place to look is at existing Visual Studio Extensions that are open sou
 Another good resource is the MSDN forums.  A lot of the Visual Studio developers monitor that group, Ryan included, and give great answers to the hard questions there.  
 
 - http://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio
+
+Other notable documentation links
+
+- [VS Command Routing](http://msdn.microsoft.com/en-us/library/bb166180.aspx)
