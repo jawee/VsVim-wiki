@@ -5,6 +5,7 @@
 * <a href="#oss">Does this project accept contributions?</a>
 * <a href="#nosupport">How can I get feature X implemented / supported?</a>
 * <a href="#advanced">Why don't Ctrl-V, Ctrl-A and Ctrl-X work in Visual Studio?</a>
+* <a href="#vimrc">How can I disable autoload of my vimrc file?</a>
 * <a href="#backspace">Why can't I backspace in insert mode?</a>
 * <a href="#disablekey">When I uninstall VsVim why do keys like Delete no longer work?</a>
 * <a href="#vimrc">How can I verify my .vimrc is loading?</a>
@@ -56,6 +57,17 @@ Note: Ctrl-A and Ctrl-X aren't available until 1.1
 VsVim implements the Vim <code>backspace</code> setting.  The default value for this setting doesn't allow backspace at the start of insert mode.  If you have a <code>vimrc</code> file VsVim will respect this setting and behave as Vim would.  To change this behavior add the following to your <code>vimrc</code> file 
 
 <pre><code>set backspace=indent,eol,start</pre></code>
+
+<a name="vimrc"></a>
+*How can I disable autoload of my vimrc file?*
+
+Note: This entry won't be relevant until 1.7.0 is released
+
+By default VsVim will load the same _vimrc file that gVim would load.  To disable this behavior do the following
+
+- Tools -> Options 
+- VsVim -> Defaults
+- Change "VimRc File Loading" to "vsvimrc only" or "None"
 
 <a name="disablekey"></a>
 *When I uninstall VsVim why do keys like Delete no longer work?*
