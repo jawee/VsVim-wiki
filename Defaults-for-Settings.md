@@ -18,7 +18,7 @@ As I sat down to fix Vs 2012 and studied the changes they made I realized there 
 
 Something simply had to give.  I decided that if I had to make a break it would be best to do it only once.  So I designed a predictable solution that I feel will be maintainable in the face of future Visual Studio changes.  
 
-## Why didn't not only use settings which were only explicit set in the vimrc? 
+## Why not only use settings which were only explicit set in the vimrc? 
 I definitely considered the idea of looking at individual settings but eventually backed away from it. There are a good portion of vim users who prefer the vim default for a setting but never specified the default in the vimrc file (it would be redundant). 
 
 For instance some users don't want a cursor line. This is the default behavior though so they never say `:set nocursorline`, they just expect it to not be there. I didn't want them contorting their standard vimrc for VsVim.
