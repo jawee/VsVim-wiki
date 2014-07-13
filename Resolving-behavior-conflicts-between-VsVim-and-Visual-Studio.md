@@ -35,3 +35,7 @@ VsVim must choose a winner between these settings and by default it picks Visual
 
 The setting which controls this is `vsvim_useeditordefaults`
 
+## Why did you pick Visual Studio defaults over Vim? 
+I chose Visual Studio behavior as the default winner over vim because it appears to match the expectation of users.  The majority of bug reports / emails I get where there isn't actually a bug occur because of a misunderstanding on how one of the above behavior differences operate.  In nearly every case the user expected Visual Studio behavior not vim.  
+
+
