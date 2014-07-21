@@ -1,5 +1,15 @@
 # Release Notes
 
+### Version 1.7.0
+[Issues closed in milestone 1.7.0](https://github.com/jaredpar/VsVim/issues?milestone=40&page=1&state=closed)
+
+Primary Issues Addressed
+* VsVim now has a proper options page (Tools -> Options) 
+* VsVim is now a proper package
+* `Ctrl+R` support in command line mode 
+* Support for `softtabstop`
+* Word wrap glyph support 
+
 ### Version 1.6.0
 [Issues closed in milestone 1.6.0](https://github.com/jaredpar/VsVim/issues?milestone=39&page=1&state=closed)
 
