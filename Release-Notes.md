@@ -6,7 +6,7 @@
 Primary Issues Addressed
 * VsVim now has a proper options page (Tools -> Options) 
 * VsVim is now a proper package
-* `Ctrl+R` support in command line mode 
+* <kbd>Ctrl+R</kbd> support in command line mode 
 * Support for `softtabstop`
 * Word wrap glyph support 
 
