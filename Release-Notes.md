@@ -1,5 +1,14 @@
 # Release Notes
 
+### Version 1.7.1
+[Issues closed in milestone 1.7.1)(https://github.com/jaredpar/VsVim/issues?q=milestone%3A1.7.1+is%3Aclosed)
+
+Primary Issues Addressed
+* Better comment support in vimrc
+* Windows clipboard stalls 
+* Undo / Redo bugs 
+* tag blocks
+
 ### Version 1.7.0
 [Issues closed in milestone 1.7.0](https://github.com/jaredpar/VsVim/issues?milestone=40&page=1&state=closed)
 
