@@ -9,6 +9,9 @@ Primary Issues Addressed
 * Undo / Redo bugs 
 * tag blocks
 
+Patched Issues in 1.7.1.1
+* Double click selection issue
+
 ### Version 1.7.0
 [Issues closed in milestone 1.7.0](https://github.com/jaredpar/VsVim/issues?milestone=40&page=1&state=closed)
 
