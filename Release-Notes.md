@@ -1,5 +1,13 @@
 # Release Notes
 
+### Version 1.8.0
+[Issues closed in milestone 1.8.0](https://github.com/jaredpar/VsVim/issues?q=milestone%3A1.8.0+is%3Aclosed)
+
+Primary Issues Addressed
+* Rewrote regex replace code to support many more Vim features
+* Paragraph and sentence motion fixes
+* Undo bug fixes
+
 ### Version 1.7.1
 [Issues closed in milestone 1.7.1](https://github.com/jaredpar/VsVim/issues?q=milestone%3A1.7.1+is%3Aclosed)
 
