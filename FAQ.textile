@@ -15,6 +15,8 @@ FAQ
 * [How can I build VsVim myself?](#how-can-i-build-vsvim-myself)
 * [How can I install a build with the latest sources?](#how-can-i-install-a-build-with-the-latest-sources)
 
+blah
+
 ### What features are supported?
 
 Quite a few and more are being added all the time.  See [[Supported Features|Supported-Features]] for more details.
