@@ -1,66 +1,49 @@
-[[Default Settings Change Announcement|Defaults-for-Settings]]
+FAQ 
 
-* <a href="#features">What features are supported?</a>
-* <a href="#settings">What settings are supported?</a>
-* <a href="#oss">Does this project accept contributions?</a>
-* <a href="#nosupport">How can I get feature X implemented / supported?</a>
-* <a href="#advanced">Why don't Ctrl-V, Ctrl-A and Ctrl-X work in Visual Studio?</a>
-* <a href="#vimrc">How can I disable autoload of my vimrc file?</a>
-* <a href="#backspace">Why can't I backspace in insert mode?</a>
-* <a href="#disablekey">When I uninstall VsVim why do keys like Delete no longer work?</a>
-* <a href="#vimrc">How can I verify my .vimrc is loading?</a>
-* <a href="#thirdPartyTools">Integration with ReSharper, DevExpress, Visual Assist, etc ...</a>
-* <a href="#disable">Temporarily disabling VsVim</a>
-* <a href="#language">Why is so much of this written in F#?</a>
-* <a href="#drops">Where can i get older drops?</a>
-* <a href="#vax">Visual Assist Compatibility</a>
-* <a href="#porting">Porting VsVim to other applications</a>
-* <a href="#ptvs2013">Python Tools 2013 Preview</a>
-* <a href="#blinking">The cursor blinks now</a>
-* <a href="#building">How do I build it myself?</a>
-* <a href="#keyboard">Why doesn't the Ctrl+[ key (or some other key) work?</a>
-* <a href="#selection">Text selection doesn't work right.  Can this be fixed?</a>
-* <a href="#options">How do I go back to resolve conflicting keybindings?</a>
-* <a href="#install-latest">How can I install a build with the current sources?</a>
+* [What features are supported?](#what-features-are-supported)
+* [What settings are supported?](#what-settings-are-supported)
+* [How can I get feature X implemented?](#how-can-i-get-feature-x-implemented)
+* [Why don't the copy, paste and cut keystrokes work?](#why-dont-the-copy-paste-and-cut-keystrokes-work)
+* [How can I disable autoload of my vimrc?](#how-can-i-disable-autoload-of-my-vimrc)
+* [Why can't I backspace in insert mode?](#why-cant-i-backspace-in-insert-mode)
+* [Why don't keys like Delete work after uninstall?](#why-dont-keys-like-delete-work-after-uninstall)
+* [How can I verify my vimrc is loading?](#how-can-i-verify-my-vimrc-is-loading)
+* [How can I temporarily disable VsVim?](#how-can-i-temporarily-disable-vsvim)
+* [Where can I get older drops?](#where-can-i-get-older-drops)
+* [How can I use Visual Assist and VsVim?](#how-can-i-use-visual-assist-and-vsvim)
+* [How can I change the cursor blink rate?](#how-can-i-change-the-cursor-blink-rate)
+* [How can I build VsVim myself?](#how-can-i-build-vsvim-myself)
+* [How can I install a build with the latest sources?](#how-can-i-install-a-build-with-the-latest-sources)
 
-<a name="features"></a>
-*What features are supported?*
+### What features are supported?
 
 Quite a few and more are being added all the time.  See [[Supported Features|Supported-Features]] for more details.
 
-<a name="settings"></a>
-*What settings are supported?*
+### What settings are supported?
 
 Hopefully, your favorite vim settings are supported.  Check [[Settings Reference|Settings-Reference]] to find out.
 
-<a name="oss"></a>
-*Does this project accept contributions?*
-
-Yes. VsVim is released under the Apache 2.0 license and accepts outside contributions. 
-
-<a name="nosupport"></a>
-*How can I get feature X implemented / supported?*
+### How can I get feature X implemented?
 
 Please file an issue on GitHub requesting this feature.  Issues are the primary way I track both bugs and feature requests.  
 
-<a name="advanced"></a>
-*Why don't Ctrl-V, Ctrl-A and Ctrl-X work in Visual Studio?*
+### Why don't the copy, paste and cut keystrokes work?
 
 All of these commands are implemented but are not enabled by default.  These are command keys which have very specific meaning in Windows and their usage is classified as advanced so VsVim won't unbind them by default.  To enable these commands manually switch them to VsVim in the conflicting key bindings dialog. 
 
-If you'd like to have the VsVim handle Ctrl-V, Ctrl-C, etc and still get the typical Windows behavior, see <a href="https://github.com/jaredpar/VsVim/wiki/VsVim-Nonstandard-Behavior#wiki-clipboard">these instructions</a> on the <a href="https://github.com/jaredpar/VsVim/wiki/VsVim-Nonstandard-Behavior">VsVim Nonstandard Behavior</a> page.
+If you'd like to have the VsVim handle Ctrl-V, Ctrl-C, etc and still get the typical Windows behavior, see [these instructions](https://github.com/jaredpar/VsVim/wiki/VsVim-Nonstandard-Behavior#wiki-clipboard) on the [VsVim Nonstandard Behavior](https://github.com/jaredpar/VsVim/wiki/VsVim-Nonstandard-Behavior) page.
 
 Note: Ctrl-A and Ctrl-X aren't available until 1.1
 
-<a name="backspace"></a>
-*Why can't I backspace in insert mode?*
+### Why can't I backspace in insert mode?
 
-VsVim implements the Vim <code>backspace</code> setting.  The default value for this setting doesn't allow backspace at the start of insert mode.  If you have a <code>vimrc</code> file VsVim will respect this setting and behave as Vim would.  To change this behavior add the following to your <code>vimrc</code> file 
+VsVim implements the Vim `backspace` setting.  The default value for this setting doesn't allow backspace at the start of insert mode.  If you have a vimrc file VsVim will respect this setting and behave as Vim would.  To change this behavior add the following to your vimrc file 
 
-<pre><code>set backspace=indent,eol,start</pre></code>
+```
+set backspace=indent,eol,start
+```
 
-<a name="vimrc"></a>
-*How can I disable autoload of my vimrc file?*
+### How can I disable autoload of my vimrc?
 
 Note: This entry won't be relevant until 1.7.0 is released
 
@@ -70,8 +53,7 @@ By default VsVim will load the same _vimrc file that gVim would load.  To disabl
 - VsVim -> Defaults
 - Change "VimRc File Loading" to "vsvimrc only" or "None"
 
-<a name="disablekey"></a>
-*When I uninstall VsVim why do keys like Delete no longer work?*
+### Why don't keys like Delete work after uninstall?
 
 Visual Studio by default contains a lot of key bindings which interfere with VsVim's ability to be a proper emulation of Vim.  As such on start up it will detect any key bindings which conflict and prompt the user to remove them.  These are not reset when VsVim is uninstalled.
 
@@ -79,11 +61,9 @@ There are two options for restoring the settings.  The first is to use the Vim O
 
 The other method is to reset your current profile.  This is much more impactful though and will have the effect of resetting other settings.  
 
-bq. Tools -> Options -> Import / Export Settings
+> Tools -> Options -> Import / Export Settings
 
-
-<a name="vimrc"></a>
-*How can I verify my .vimrc is loading?*
+### How can I verify my vimrc is loading?
 
 There are 2 non-standard vim settings that can be used to diagnose potential .vimrc load issues
 
@@ -94,84 +74,34 @@ By default VsVim will look for a file named .vsvimrc, _vsvimrc, .vimrc or _vimrc
 
 As of now the commands supported in the .vimrc file are limited to those supported in command mode.  
 
-<a name="thirdPartyTools"></a>
-*Integration with ReSharper, DevExpress, Visual Assist, etc ...*
+### How can I temporarily disable VsVim?
 
-Beta support for integration with ReSharper, CodeRush, etc ... is available now 
+VsVim can be temporary disabled by the key sequence <kbd>Ctrl+Shift+F12</kbd> and re-enabled later by the same key sequence.  While disabled VsVim will not interfere with any keyboard or selection allowing you to use Visual Studio as if VsVim wasn't installed.
 
-[[Beta Support Wiki Page|https://github.com/jaredpar/VsVim/wiki/3rd-party-plugin-support-(R%23,-Code-Rush,-etc-...)]]
+### Where can I get older drops?
 
-Right now there is no explicit support for interaction with 3rd party editor extensions like ReSharper, DevExpressio, Visual Assist, etc ...  This support is coming and is the primary focus of the next version VsVim (0.9.4).  A beta is expected around 12/9
+Older versions of VsVim are available in the [VsVim Drops](https://www.dropbox.com/sh/pqxkvemji983alf/kZ3a2dUplB) folder on DropBox.
 
-In the mean time if you reach a scenario where VsVim is interfering with actions like in place refactoring, you can <a href="#disable">temporarily disable it</a>, do the 3rd party action and then re-enable VsVim afterwards.  
-
-<a name="disable"></a>
-*Temporarily disabling VsVim*
-
-VsVim can be temporary disabled by the key sequence Ctrl+Shift+F12 and re-enabled later by the same key sequence.  While disabled VsVim will not interfere with any keyboard or selection allowing you to use Visual Studio as if VsVim wasn't installed.
-
-<a name="language"></a>
-*Why is so much of this written in F#?*
-
-VsVim originally started as an internal hobby project of mine.  I wanted vim key bindings on a newer version of Visual Studio and at the same time I was learning F#.  Combining the two projects seemed like a perfect idea.  
-
-If I had known that I'd stick with the project this long and release it to the world I may have chosen C# instead.  Not because I dislike F# in any way (I absolutely love it in fact).  But because I realize it's a barrier to many people contributing to the project.  
-
-<a name="drops"></a>
-*Where can I get older drops*
-
-Older versions of VsVim are available in the following Dropbox folder
-
-<a href="https://www.dropbox.com/sh/pqxkvemji983alf/kZ3a2dUplB">VsVim Drops</a>
-
-<a name="vax"></a>
-*Visual Assist Compatibility*
+### How can I use Visual Assist and VsVim?
 
 Recent versions of Visual Assist are compatible with VsVim.  If you are seeing any issues then make sure that the following registry value has a value of 1.  This is the default so not seeing the setting means that it's OK.
 
 * VS2010: HKCU\Software\Whole Tomato\Visual Assist X\VANet10\TrackCaretVisibility
 * VS2012: HKCU\Software\Whole Tomato\Visual Assist X\VANet11\TrackCaretVisibility
 
-<a name="porting"></a>
-*Porting VsVim to other applications*
-
-[[Porting-VsVim-to-other-applications]]
-
-<a name="ptvs2013"></a>
-*Failure of VsVim to load in Python Tools for Visual Studio 2013 Preview Edition*
-
-[[PTVS-2013-Preview-and-VsVim]]
-
-<a name="blinking"></a>
-*The cursor blinks now*
+### How can I change the cursor blink rate?
 
 VsVim obeys your operating system cursor blink rate preferences.  If you don't like it, set it to none in:
 
-bq. Control Panel -> Keyboard -> Cursor blink rate
+```
+Control Panel -> Keyboard -> Cursor blink rate
+```
 
-<a name="building"></a>
-*How do I build it myself?*
+### How can I build VsVim myself?
 
 See [[Build Environment|Build-Environment]] for details.
 
-<a name="keyboard"></a>
-*Why doesn't the Ctrl+[ key (or some other key) work?*
-
-VsVim tries hard to make as many keys that you that you are accustomed to using in vim available.  If for some reason a key is not working, try [[Troubleshooting the Keyboard|Troubleshooting-the-Keyboard]].
-
-<a name="selection"></a>
-*Text selection doesn't work right.  Can this be fixed?*
-
-If you are not accustomed to vim's visual mode but still want vi-like keybindings, you can enable select mode which is much more like the select you are familiar with in Visual Studio. See [[VsVim Nonstandard Behavior|VsVim-Nonstandard-Behavior#wiki-ctrl-x-ctrl-c-ctrl-v]], in particular `behave mswin`.
-
-
-<a name="options"></a>
-*How do I go back to resolve conflicting keybindings?*
-
-Open VsVim options using the button to the right of the commandline (at the bottom right of your editor window)
-
-<a name="install-latest"></a>
-*How can I install a build with the current sources?*
+### How can I install a build with the latest sources?
 
 Every commit in VsVim will upload a new build to [the Open VSIX Gallery](http://vsixgallery.com).  If there is a bug fix or patch which isn't on the official Microsoft gallery yet you can just install the latest VsVim build from here until it makes it into the official release. Te instructions for using this as a VSIX source are [documented here](http://vsixgallery.com/guide/feed/)
 
