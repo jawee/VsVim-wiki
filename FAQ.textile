@@ -162,7 +162,7 @@ VsVim tries hard to make as many keys that you that you are accustomed to using 
 <a name="selection"></a>
 *Text selection doesn't work right.  Can this be fixed?*
 
-If you are not accustomed to vim's visual mode but still want vi-like keybindings, you can enable select mode which is much more like the select you are familiar with in Visual Studio. See [[VsVim Nonstandard Behavior|VsVim-Nonstandard-Behavior#wiki-ctrl-x-ctrl-c-ctrl-v]], in particular <pre><code>behave mswin</code></pre>.
+If you are not accustomed to vim's visual mode but still want vi-like keybindings, you can enable select mode which is much more like the select you are familiar with in Visual Studio. See [[VsVim Nonstandard Behavior|VsVim-Nonstandard-Behavior#wiki-ctrl-x-ctrl-c-ctrl-v]], in particular `behave mswin`.
 
 
 <a name="options"></a>
