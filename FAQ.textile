@@ -21,6 +21,7 @@
 * <a href="#keyboard">Why doesn't the Ctrl+[ key (or some other key) work?</a>
 * <a href="#selection">Text selection doesn't work right.  Can this be fixed?</a>
 * <a href="#options">How do I go back to resolve conflicting keybindings?</a>
+* <a href="#install-latest">How can I install a build with the current sources?</a>
 
 <a name="features"></a>
 *What features are supported?*
@@ -168,3 +169,14 @@ If you are not accustomed to vim's visual mode but still want vi-like keybinding
 *How do I go back to resolve conflicting keybindings?*
 
 Open VsVim options using the button to the right of the commandline (at the bottom right of your editor window)
+
+<a name="install-latest"></a>
+*How can I install a build with the current sources?*
+
+Every commit in VsVim will upload a new build to [the Open VSIX Gallery](http://vsixgallery.com).  If there is a bug fix, patch which isn't on the official Microsoft gallery yet you can just install the latest VsVim build from here.  The instructions for using this as a VSIX source are documented here.
+
+- http://vsixgallery.com/guide/feed/
+
+
+
+
