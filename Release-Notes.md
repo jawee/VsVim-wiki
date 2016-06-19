@@ -1,5 +1,11 @@
 # Release Notes
 
+### Version 2.1.0
+[Issues closed in milestone 2.1.0](https://github.com/jaredpar/VsVim/issues?q=milestone%3A2.1.0+is%3Aclosed)
+
+Primary Issues Addressed
+* Clean macro recording
+
 ### Version 2.0.0
 [Issues closed in milestone 2.0.0](https://github.com/jaredpar/VsVim/issues?q=milestone%3A2.0.0)
 
