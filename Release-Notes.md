@@ -6,6 +6,9 @@
 Primary Issues Addressed
 * Clean macro recording
 
+Patched Issues in 2.1.1
+* Many selection issues involving end of line
+
 ### Version 2.0.0
 [Issues closed in milestone 2.0.0](https://github.com/jaredpar/VsVim/issues?q=milestone%3A2.0.0)
 
