@@ -14,6 +14,7 @@ FAQ
 * [How can I change the cursor blink rate?](#how-can-i-change-the-cursor-blink-rate)
 * [How can I build VsVim myself?](#how-can-i-build-vsvim-myself)
 * [How can I install a build with the latest sources?](#how-can-i-install-a-build-with-the-latest-sources)
+* [How can I get a build that can run on .NET 4.0?](#how-can-i-get-)
 
 ### What features are supported?
 
@@ -106,6 +107,13 @@ See [[Build Environment|Build-Environment]] for details.
 Every commit in VsVim will upload a new build to [the Open VSIX Gallery](http://vsixgallery.com).  If there is a bug fix or patch which isn't on the official Microsoft gallery yet you can just install the latest VsVim build from here until it makes it into the official release. Te instructions for using this as a VSIX source are [documented here](http://vsixgallery.com/guide/feed/)
 
 
+### How can I get a build that can run on .NET 4.0?
+
+Starting with version 2.2 VsVim will require .NET 4.5 to run.  This could negatively impact developers who are running on Visual Studio 2010 as it has a minimum runtime requirement of 4.0.  This version of the runtime is no longer supported but it's possible it is still used.  
+
+If that is the case you can install the final 2.1 build which runs on 4.0:
+
+> [VsVim 2.1.1.0](https://vsvim.blob.core.windows.net/drops/VsVim-2.1.1.0.vsix)
 
 
 
