@@ -15,7 +15,7 @@ FAQ
 * [How can I build VsVim myself?](#how-can-i-build-vsvim-myself)
 * [How can I install a build with the latest sources?](#how-can-i-install-a-build-with-the-latest-sources)
 * [How can I get a build that can run on .NET 4.0?](#how-can-i-get-a-build-that-can-run-on-net-40)
-* [Why can't I install VsVim on VS 2010?](#why-cant-i-install-vsvim-on-vs2010")
+* [Why can't I install VsVim on VS 2010?](#why-cant-i-install-vsvim-on-vs2010)
 
 ### What features are supported?
 
