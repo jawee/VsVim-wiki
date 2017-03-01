@@ -15,6 +15,7 @@ FAQ
 * [How can I build VsVim myself?](#how-can-i-build-vsvim-myself)
 * [How can I install a build with the latest sources?](#how-can-i-install-a-build-with-the-latest-sources)
 * [How can I get a build that can run on .NET 4.0?](#how-can-i-get-a-build-that-can-run-on-net-40)
+* [Why can't I install VsVim on VS 2010?)](#vs-2010)
 
 ### What features are supported?
 
@@ -114,6 +115,13 @@ Starting with version 2.2 VsVim will require .NET 4.5 to run.  This could negati
 If that is the case you can install the final 2.1 build which runs on 4.0:
 
 > [VsVim 2.1.1.0](https://vsvim.blob.core.windows.net/drops/VsVim-2.1.1.0.vsix)
+
+### Why can't I install VsVim on VS2010? 
+[vs-2010]: #vs-2010
+
+Changes to the VSIX manifest format in VS 2017 make it impossible to have a single VSIX that supports VS 2010 - 2017.  Instead I can only support VS 2012 - 2017 in that manner.  As such I had to drop support for VS 2010 from the main project.  
+
+VS 2010 developers can still use VsVim by installing the "VsVim 2010" extension.  This is VsVim as of 2.2.0 that specifically targets VS 2010.  
 
 
 
