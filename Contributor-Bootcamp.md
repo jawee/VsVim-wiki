@@ -24,6 +24,10 @@ Much of VsVim deals directly with text using the Visual Studio editor APIs. Thes
 
 * [Inside the Editor](https://docs.microsoft.com/en-us/visualstudio/extensibility/inside-the-editor)
 
+Additional information:
+
+* [Language Service and Editor Extension Points](https://docs.microsoft.com/en-us/visualstudio/extensibility/language-service-and-editor-extension-points)
+
 # WPF
 
 Although the F# core of VsVim doesn't use WPF directly, many peripheral areas use it extensively. For example, the `CommandMargin` could almost be a standalone WPF project. If you intend to work in one of these areas, you need to familiarize yourself with WPF.
