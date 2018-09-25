@@ -105,7 +105,7 @@ See [[Build Environment|Build-Environment]] for details.
 
 ### How can I install a build with the latest sources?
 
-Every commit in VsVim will upload a new build to [the Open VSIX Gallery](http://vsixgallery.com).  If there is a bug fix or patch which isn't on the official Microsoft gallery yet you can just install the latest VsVim build from here until it makes it into the official release. The instructions for using this as a VSIX source are [documented here](http://vsixgallery.com/guide/feed/)
+Every commit in VsVim will upload a new build to [the Open VSIX Gallery](http://vsixgallery.com) (search for VsVim).  If there is a bug fix or patch which isn't on the official Microsoft gallery yet you can just install the latest VsVim build from here until it makes it into the official release. The instructions for using this as a VSIX source are [documented here](http://vsixgallery.com/guide/feed/)
 
 
 ### How can I get a build that can run on .NET 4.0?
