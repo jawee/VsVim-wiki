@@ -78,7 +78,15 @@ As of now the commands supported in the .vimrc file are limited to those support
 
 ### How can I temporarily disable VsVim?
 
-VsVim can be temporary disabled by the key sequence <kbd>Ctrl+Shift+F12</kbd> and re-enabled later by the same key sequence.  While disabled VsVim will not interfere with any keyboard or selection allowing you to use Visual Studio as if VsVim wasn't installed.
+VsVim can be temporary disabled by the key sequence <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> and re-enabled later by the same key sequence.  While disabled VsVim will not interfere with any keyboard or selection allowing you to use Visual Studio as if VsVim wasn't installed.
+
+If the shortcut is not working for you, it is possible the key combination is bound to another command. To see which command is conflicting so that you can reassign/remove the binding:
+
+- Go to Tools -> Options -> Environment -> Keyboard.
+- In the "Press shortcut keys" field, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>
+- Check the "Shortcut currently used by" field, copy the name.
+- Paste the command name into the "Show commands containing" field to filter the list of commands.
+- Remove or reassign the key binding from the command.
 
 ### Where can I get older drops?
 
