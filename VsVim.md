@@ -1,4 +1,4 @@
-# VsVim
+#### Getting Started
 
 VsVim is a Vim-compatible extension for the Visual Studio environment.
 
