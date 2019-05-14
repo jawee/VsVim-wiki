@@ -12,7 +12,7 @@ VsVim is a Vim-compatible extension for the Visual Studio environment.
 
 #### VsVim Wiki Sections
 
-[[Release Notes|Release-Notes]]
+[Release Notes](https://github.com/VsVim/VsVim/blob/master/Documentation/release-notes.md)
 
 [[Supported Features|Supported-Features]]
 
