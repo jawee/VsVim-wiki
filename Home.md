@@ -8,7 +8,7 @@ VsVim is a Vim-compatible extension for the Visual Studio environment.
 
 - If VsVim supports a Vim feature, but you need a refresher on how it works, you can use `:vimhelp subject` to access the Vim help system, for example try `:vimhelp usr_01.txt` for a user-friendly introduction to all of Vim. Install [vim](https://github.com/vim/vim-win32-installer/releases) to get inline `:vimhelp`.
 
-- You can temporarily disable VsVim using <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> if VsVim is interfering with something else going on in Visual Studio. Type it again to re-enable VsVim.
+- You can temporarily disable VsVim using <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> if VsVim is interfering with something else going on in Visual Studio. Type it again to re-enable VsVim. If that doesn't work, or you can't remember the keystrokes, you can also disable and re-enable VsVim from Tools -> Options -> VsVim -> Defaults -> VsVim -> Disable VsVim.
 
 - If you have a question, first try the [[FAQ]].
 
