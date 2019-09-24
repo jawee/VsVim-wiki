@@ -4,6 +4,8 @@
 
 VsVim is a Vim-compatible extension for the Visual Studio environment.
 
+- First off, `:help` takes you here!
+
 - VsVim supports a significant subset of what Vim can do. See the list of [Supported Features](https://github.com/VsVim/VsVim/blob/master/Documentation/Supported%20Features.md). Or just try a command; it might work! If it doesn't, you can request a feature or report a bug by creating an issue [here](https://github.com/VsVim/VsVim/issues).
 
 - If VsVim supports a Vim feature, but you need a refresher on how it works, you can use `:vimhelp subject` to access the Vim help system, for example try `:vimhelp usr_01.txt` for a user-friendly introduction to all of Vim. Install [vim](https://github.com/vim/vim-win32-installer/releases) to get inline `:vimhelp`.
