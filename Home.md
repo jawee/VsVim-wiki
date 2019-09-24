@@ -24,6 +24,8 @@ VsVim is a Vim-compatible extension for the Visual Studio environment.
 
 [[Troubleshooting the Keyboard|Troubleshooting-the-Keyboard]]
 
+<a href="https://github.com/VsVim/VsVim/blob/master/Documentation/Multiple%20Selections.md">Multiple Cursors / Multiple Carets / Multiple Selections</a>
+
 [[Build Environment|Build-Environment]]
 
 [[Older Drops|https://www.dropbox.com/sh/pqxkvemji983alf/kZ3a2dUplB]]
