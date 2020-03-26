@@ -33,7 +33,46 @@ Some control keys used by VsVim conflict with default VSMac keys (`<C-d>` etc). 
 
 <img width="664" alt="image" src="https://user-images.githubusercontent.com/667194/70971779-9cbdf000-2099-11ea-999e-c528f9c026a3.png">
 
+
 That's it! A restart of VSMac may be needed.
+
+If you like, you may use a `~/.vsvimrc` file to customize the behavior of VsVim. This is mine.
+
+```vim
+set incsearch
+set hlsearch
+let mapleader=" "
+set cursorline
+set clipboard=unnamed
+set expandtab
+set ignorecase
+set smartcase
+set autoindent
+set backspace=indent,eol,start " <-- Needed if you want the backspace key to work like you would expect!
+set tabstop=4
+set shiftwidth=4
+nnoremap <C-p> :vsc MonoDevelop.Ide.Commands.SearchCommands.GotoFile <CR>
+nnoremap gu :vsc MonoDevelop.Refactoring.RefactoryCommands.FindReferences <CR>
+nnoremap gh :vsc MonoDevelop.Ide.Commands.TextEditorCommands.ShowQuickInfo <CR> " <-- Show tooltip without mouse
+nnoremap gb :vsc MonoDevelop.RefactoryCommands.NavigationCommands.FindBaseSymbols <CR>
+nnoremap <C-w>o :vsc MonoDevelop.Ide.Commands.FileTabCommands.CloseAllButThis <CR>
+
+" I prefer default VSMac behaviour of navigating between buffers
+" when navigating backwards and forwards
+nnoremap <C-o> :vsc MonoDevelop.Ide.Commands.NavigationCommands.NavigateBack <CR>
+nnoremap <C-i> :vsc MonoDevelop.Ide.Commands.NavigationCommands.NavigateForward <CR>
+
+" Keys copied from SpaceMacs
+nnoremap <Space>p :vsc MonoDevelop.Ide.Commands.SearchCommands.GotoFile <CR>
+nnoremap <Space>fs :vsc MonoDevelop.Ide.Commands.FileCommands.Save <CR>
+
+nmap gs :vsc VsVim.ShowPadByTitle Solution<CR>
+
+" Emacs keys when in insert mode
+inoremap <C-d> MonoDevelop.Ide.Commands.EditCommands.Delete
+inoremap <C-a> MonoDevelop.Ide.Commands.TextEditorCommands.LineStart
+```
+
 
 #### Development guide
  If you want to help develop the code, then you will also need to install the AddinMaker extension
