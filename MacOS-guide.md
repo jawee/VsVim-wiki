@@ -38,6 +38,8 @@ That's it! A restart of VSMac may be needed.
 
 If you like, you may use a `~/.vsvimrc` file to customize the behavior of VsVim. This is mine.
 
+#Example Vim configuration
+
 ```vim
 set incsearch
 set hlsearch
