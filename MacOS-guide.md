@@ -45,7 +45,7 @@ set incsearch
 set hlsearch
 let mapleader=" "
 set cursorline
-set clipboard=unnamed
+set clipboard=unnamed " <-- Use the system clipboard when yanking and putting
 set expandtab
 set ignorecase
 set smartcase
