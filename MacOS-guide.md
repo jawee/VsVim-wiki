@@ -3,11 +3,13 @@
 Download the extension via the VSMac extension gallery (Visual Studio -> Extensions -> Gallery) and search for VSVim.
 
 #### VS Mac Preview (Cocoa 17.0+)
-VSMac 17.0 does not yet have an extension gallery. However it is possible to install VsVim by downloading the latest mpack (currently [2.8.0.14](https://github.com/VsVim/VsVim/releases/download/v2.8.0.14-vsm8.9/Vim.Mac.VsVim_2.8.0.14.mpack)) file from the [Releases](https://github.com/VsVim/VsVim/releases) page and then running the following command inside a terminal
+VSMac 17.0 does not yet have an extension gallery. However, it is still possible to install VsVim by downloading the latest mpack (currently [2.8.0.14](https://github.com/VsVim/VsVim/releases/download/v2.8.0.14-vsm8.9/Vim.Mac.VsVim_2.8.0.14.mpack)) file from the [Releases](https://github.com/VsVim/VsVim/releases) page and then running the following command inside a terminal
 
 ```sh
 /Applications/Visual\ Studio\ \(Preview\).app/Contents/MacOS/vstool setup install Vim.Mac.VsVim_2.8.0.14.mpack
 ```
+
+Restart VSMac if it was already running.
 
 ### Build instructions
 
